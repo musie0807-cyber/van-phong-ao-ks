@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07 19:37 +07",
+  "generated_at": "2026-11-07 19:47 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -49,8 +49,8 @@
       "title": "Kiểm tra lỗi Shop (quét HCK)",
       "live": true,
       "numbers": {
-        "hck_posts_new_latest_run": 10,
-        "hck_posts_latest_run_date": "2026-11-06",
+        "hck_posts_new_latest_run": 19,
+        "hck_posts_latest_run_date": "2026-11-07",
         "hck_posts_latest_group_msg": 839,
         "hck_videos_new_latest_run": 6,
         "hck_videos_latest_run_date": "2026-11-06",
@@ -58,7 +58,7 @@
         "hck_posts_baseline_urls": 28,
         "hck_videos_baseline_urls": 58
       },
-      "note": "Latest completed runs: 10 posts verified for 2026-11-06 (group msg 839) + 6 videos verified for 2026-11-06 (msg 840). The 10 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
+      "note": "Latest completed runs: 19 posts verified for 2026-11-07 (group msg 839) + 6 videos verified for 2026-11-06 (msg 840). The 19 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
       "sources": [
         "hck-scan-log.md",
         "hck-videos-baseline.json",
