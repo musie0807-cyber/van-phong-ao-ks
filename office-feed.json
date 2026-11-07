@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07 11:06 +07",
+  "generated_at": "2026-11-07 11:39 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -28,15 +28,13 @@
       "live": true,
       "numbers": {
         "seen_posts": 115,
-        "shared_posts": 150,
+        "shared_posts": 152,
         "seen_not_shared_snapshot": 3,
-        "shared_not_in_seen_snapshot": 38,
-        "published_but_unshared": 1,
-        "published_but_unshared_ids": [
-          "1484470813780620"
-        ]
+        "shared_not_in_seen_snapshot": 40,
+        "published_but_unshared": 0,
+        "published_but_unshared_ids": []
       },
-      "note": "Seen/sharing ledgers are snapshots at different times (seen 2026-11-05 21:35, shared 15:38), so the 3 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. Published-but-unshared right now: 1 (1484470813780620 @ 2026-11-07 11:00 +07) — the 09:30 Cuitisan PR06 share is blocked on the Facebook login (WhatsApp 2FA; anh is signing in himself). ",
+      "note": "Seen/sharing ledgers are snapshots at different times (seen 2026-11-05 21:35, shared 15:38), so the 3 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. No published post is waiting to be shared right now. ",
       "pending_ids": [
         "1479186717642363",
         "1479187140975654",
@@ -143,11 +141,11 @@
       "numbers": {
         "drive_total_items": 1561,
         "drive_new_after_watermark": 0,
-        "drive_last_scan": "drive-scan-1107-1015.json"
+        "drive_last_scan": "drive-scan-1107-1115.json"
       },
       "note": "Hourly recursive-listing watch; silent when nothing new.",
       "sources": [
-        "drive-scan-1107-1015.json"
+        "drive-scan-1107-1115.json"
       ]
     },
     "tiktok_reels": {
