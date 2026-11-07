@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07 09:54 +07",
+  "generated_at": "2026-11-07 10:10 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -9,14 +9,14 @@
         "1106_scheduled": 25,
         "1106_slots_total": 33,
         "1106_held": 8,
-        "1107_scheduled": 32,
+        "1107_scheduled": 33,
         "1107_slots_total": 33,
-        "1107_unscheduled": 1,
+        "1107_unscheduled": 0,
         "1107_photo_ready_4_4_preamble": 18,
         "1107_photo_short_preamble": 15,
         "1107_photo_held_preamble": 0
       },
-      "note": "1107: 32 scheduled (log, each with a post ID), 1 unscheduled. Photo-readiness from the manifest preamble: 18 READY + 15 SHORT = 33 at floor, 0 HELD. 1 floor slot(s) not yet created — awaiting the next Allow sitting. facebook-cli 'pages posts' last gated 2026-11-06 ~09:47 (HTTP 403, Allow sitting blocked, 0 created); retry when it clears (previous gating cleared by next morning). 1107 drafts are all inbox-only (0 tease-eligible).",
+      "note": "1107: 33 scheduled (log, each with a post ID), 0 unscheduled. Photo-readiness from the manifest preamble: 18 READY + 15 SHORT = 33 at floor, 0 HELD. facebook-cli 'pages posts' last gated 2026-11-06 ~09:47 (HTTP 403, Allow sitting blocked, 0 created); retry when it clears (previous gating cleared by next morning). 1107 drafts are all inbox-only (0 tease-eligible).",
       "sources": [
         "cli-schedule-1106-log.json",
         "cli-schedule-1107-log.json",
@@ -28,9 +28,9 @@
       "live": true,
       "numbers": {
         "seen_posts": 115,
-        "shared_posts": 148,
+        "shared_posts": 149,
         "seen_not_shared_snapshot": 3,
-        "shared_not_in_seen_snapshot": 36,
+        "shared_not_in_seen_snapshot": 37,
         "published_but_unshared": 0,
         "published_but_unshared_ids": []
       },
@@ -128,9 +128,9 @@
         "1107_decisions_answered": 9,
         "1107_decisions_open": 0,
         "1107_decisions_open_list": [],
-        "1107_scheduled": 32
+        "1107_scheduled": 33
       },
-      "note": "All 9 decisions for 11/07 answered by anh (1, 2, 3 on 2026-11-05; 4-9 blanket-approved 2026-11-06 02:29). Meta App Review for KS PAGE POSTER 2 still needs anh's Submit tap. 11-07: 32 of 33 slots scheduled (log, each with a post ID); the remaining slots are being filled from the approved sources.",
+      "note": "All 9 decisions for 11/07 answered by anh (1, 2, 3 on 2026-11-05; 4-9 blanket-approved 2026-11-06 02:29). Meta App Review for KS PAGE POSTER 2 still needs anh's Submit tap. 11-07: 33 of 33 slots scheduled (log, each with a post ID); the remaining slots are being filled from the approved sources.",
       "sources": [
         "facebook-schedule-manifest-2026-11-07.md"
       ]
