@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07 21:38 +07",
+  "generated_at": "2026-11-07 22:08 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -28,9 +28,9 @@
       "live": true,
       "numbers": {
         "seen_posts": 115,
-        "shared_posts": 172,
+        "shared_posts": 173,
         "seen_not_shared_snapshot": 3,
-        "shared_not_in_seen_snapshot": 60,
+        "shared_not_in_seen_snapshot": 61,
         "published_but_unshared": 0,
         "published_but_unshared_ids": []
       },
