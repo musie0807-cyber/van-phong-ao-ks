@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07 16:39 +07",
+  "generated_at": "2026-11-07 17:06 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -31,10 +31,12 @@
         "shared_posts": 162,
         "seen_not_shared_snapshot": 3,
         "shared_not_in_seen_snapshot": 50,
-        "published_but_unshared": 0,
-        "published_but_unshared_ids": []
+        "published_but_unshared": 1,
+        "published_but_unshared_ids": [
+          "1484332177127817"
+        ]
       },
-      "note": "Seen/sharing ledgers are snapshots at different times (seen 2026-11-05 21:35, shared 15:38), so the 3 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. No published post is waiting to be shared right now. ",
+      "note": "Seen/sharing ledgers are snapshots at different times (seen 2026-11-05 21:35, shared 15:38), so the 3 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. Published-but-unshared right now: 1 (1484332177127817 @ 2026-11-07 17:00 +07) — the 09:30 Cuitisan PR06 share is blocked on the Facebook login (WhatsApp 2FA; anh is signing in himself). ",
       "pending_ids": [
         "1479186717642363",
         "1479187140975654",
@@ -75,9 +77,9 @@
         "seo_8391_fixed_date": "2026-11-05",
         "seo_next_lot_starts_web_id": 8293,
         "image_fix_latest_lot": "image-fix-lot-2026-11-07.md",
-        "image_fix_latest_fixable": null,
-        "image_fix_latest_not_fixable": null,
-        "image_fix_next_lot_starts_web_id": null,
+        "image_fix_latest_fixable": 7,
+        "image_fix_latest_not_fixable": 2,
+        "image_fix_next_lot_starts_web_id": 7219,
         "new_code_backlog_codes": 64,
         "new_code_backlog_breakdown": {
           "batch1_held": 2,
@@ -88,7 +90,7 @@
           "batch4_unpublished": 13
         }
       },
-      "note": "SEO audit lot 8 done 2026-11-05 (19/20 above Rank Math 80). 8391 was fixed 74 -> 80 on 2026-11-05 (chị approved; slug changed), so it is no longer pending. Image-fix lot 2026-11-06 prepared (? fixable, ? not fixable: ?, no official image); next image-fix lot starts at None. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 26 unpublished (4 of 30 published) + batch-4 13 unpublished (18 of 31 published 2026-11-06 for the 17h lot, web 12623, 12638-12642, 12660-12662, 12678-12682).",
+      "note": "SEO audit lot 8 done 2026-11-05 (19/20 above Rank Math 80). 8391 was fixed 74 -> 80 on 2026-11-05 (chị approved; slug changed), so it is no longer pending. Image-fix lot 2026-11-06b APPLIED 2026-11-07 17:0 via wp-admin (7/7 fixable, live-verified on public pages; 1 held: 7239, pending approver source exception); next image-fix lot starts at 7219. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 26 unpublished (4 of 30 published) + batch-4 13 unpublished (18 of 31 published 2026-11-06 for the 17h lot, web 12623, 12638-12642, 12660-12662, 12678-12682).",
       "sources": [
         "seo-audit-lot8-2026-11-05.md",
         "image-fix-lot-2026-11-07.md",
