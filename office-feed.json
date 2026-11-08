@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 20:38 +07",
+  "generated_at": "2026-11-08 20:49 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -181,8 +181,8 @@
         "hck_videos_new_latest_run": 12,
         "hck_videos_latest_run_date": "2026-11-07",
         "hck_videos_latest_group_msg": 850,
-        "hck_posts_baseline_urls": 28,
-        "hck_videos_baseline_urls": 70
+        "hck_posts_baseline_urls": 55,
+        "hck_videos_baseline_urls": 85
       },
       "note": "Latest completed runs: 7 posts verified for 2026-11-08 (group msg 859) + 12 videos verified for 2026-11-07 (msg 850). The 7 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
       "sources": [
