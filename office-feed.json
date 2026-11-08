@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 23:36 +07",
+  "generated_at": "2026-11-09 00:03 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -34,32 +34,25 @@
       ],
       "tasks": [
         [
-          "08/11: đã lên lịch 33/33 khung",
+          "09/11: đã lên lịch 33/33 khung",
           1,
           "33/33",
-          "Ngày 08/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>đủ 33 khung</b>; các bài đăng dần trong ngày và được chia sẻ sang trang cá nhân.",
+          "Ngày 09/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>đủ 33 khung</b>; các bài đăng dần trong ngày và được chia sẻ sang trang cá nhân.",
           0
         ],
         [
-          "08/11 — sẵn sàng ảnh: READY 17 · SHORT 16 · HELD 0",
+          "09/11 — sẵn sàng ảnh: READY 17 · SHORT 16 · HELD 0",
           1,
           "0 HELD",
-          "Mức sẵn sàng ảnh của manifest 08/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
+          "Mức sẵn sàng ảnh của manifest 09/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
           0
         ],
         [
-          "09/11: đã lên lịch 23/33 khung",
-          1,
-          "23/33",
-          "Ngày 09/11 đã lên lịch đủ 23/33 khung.",
-          0
-        ],
-        [
-          "Cả 33 bài 08/11 chỉ inbox — 0 bài đủ điều kiện ghi giá",
-          1,
-          "",
-          "Toàn bộ <b>33 bài</b> ngày 08/11 là <b>inbox-only</b>: <b>0 bài đủ điều kiện ghi giá</b> nên không ghi giá trong nội dung; khách quan tâm nhắn inbox để được báo giá.",
-          0
+          "10/11: 31 khung sẵn sàng, buổi bấm đang chờ anh",
+          0,
+          "31/33",
+          "Ngày 10/11: 31 khung đủ sàn (24 READY + 9 SHORT) nên buổi bấm còn <b>31 khung</b>. Buổi bấm đang chờ anh duyệt.",
+          1
         ]
       ]
     },
@@ -264,7 +257,7 @@
           "HCK video ngày 2026-11-07: 12 video mới đã xác minh",
           0,
           "2026-11-07",
-          "Đợt quét video HCK mới nhất ghi nhận <b>12 video đã xác minh (verified) cho ngày 2026-11-07</b>; kết quả đã báo vào nhóm Telegram (tin 850). Đợt quét video ngày 08/11 chạy lúc 20:41.",
+          "Đợt quét video HCK mới nhất ghi nhận <b>12 video đã xác minh (verified) cho ngày 2026-11-07</b>; kết quả đã báo vào nhóm Telegram (tin 850). Đợt quét video ngày 09/11 chạy lúc 20:41.",
           0
         ],
         [
@@ -331,7 +324,7 @@
           "Web KS hiện có 1.995 sản phẩm",
           0,
           "Số thật",
-          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>1.995 sản phẩm</b> (số chụp ngày 08/11).",
+          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>1.995 sản phẩm</b> (số chụp ngày 09/11).",
           0
         ],
         [
@@ -406,24 +399,20 @@
         "1107_decisions_open": 0,
         "1107_decisions_open_list": [],
         "1108_decisions_total": 3,
-        "1108_decisions_answered": 0,
-        "1108_decisions_open": 3,
+        "1108_decisions_answered": 2,
+        "1108_decisions_open": 1,
         "1108_decisions_open_list": [
-          "11-09 Allow sitting (22 slots)",
-          "Meta App Review Submit",
-          "HCK carousel v5 verdict"
+          "Meta App Review Submit"
         ],
         "1108_scheduled": 33,
-        "pending": 3,
+        "pending": 1,
         "done": 9,
-        "prog": 75,
+        "prog": 90,
         "1108_decisions_open_short": [
-          "Buổi bấm 11-09",
-          "App Review",
-          "carousel v5"
+          "App Review"
         ]
       },
-      "note": "All 9 decisions for 11/07 answered by anh (1, 2, 3 on 2026-11-05; 4-9 blanket-approved 2026-11-06 02:29). OPEN 2026-11-08 (3): 11-09 Allow sitting, 22 slots (offered 06:35, awaiting anh); Meta App Review for KS PAGE POSTER 2 still needs anh's Submit tap; HCK carousel v5 verdict pending (v4 rejected 16:28, v5 delivered ~17:0x). Chị KS's B/C/D decisions (batch-6, FR06, DT2022, Stylies Phoenix, U13AQ) still pending her reply. 11-08: 33 of 33 slots scheduled (log, each with a post ID) and published through the day.",
+      "note": "All 9 decisions for 11/07 answered by anh (1, 2, 3 on 2026-11-05; 4-9 blanket-approved 2026-11-06 02:29). OPEN 2026-11-08 (1): Meta App Review for KS PAGE POSTER 2 still needs anh's Submit tap. ANSWERED: 11-09 Allow sitting approved 22:44 08/11, sitting ran 22:45-22:53 (22 slots + 09:00 TS05 at 23:03 = 23/33); HCK carousel v5 DROPPED by anh 00:03 09/11 (\"bỏ carousel\", no posting, no v6). Chị KS's B/C/D decisions (batch-6, FR06, DT2022, Stylies Phoenix, U13AQ) still pending her reply. 11-08: 33 of 33 slots scheduled (log, each with a post ID) and published through the day.",
       "sources": [
         "facebook-schedule-manifest-2026-11-08.md",
         "facebook-schedule-manifest-2026-11-09.md"
@@ -437,24 +426,10 @@
           0
         ],
         [
-          "09/11: buổi bấm Allow 23 khung — đang chờ anh duyệt",
-          0,
-          "23/33",
-          "Ngày 09/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. 23 khung đủ sàn (15 READY + 8 SHORT); chị đã bỏ 10 khung HELD (tin 852); khung 09:00 đang giữ (chờ xác nhận TS05 = GS05) nên buổi bấm còn <b>23 khung</b>. Buổi bấm đã gửi anh lúc 06:35 ngày 08/11, đang chờ anh trả lời.",
-          1
-        ],
-        [
           "Meta App Review (KS PAGE POSTER 2): vẫn cần anh bấm Submit",
           0,
           "Chờ anh",
           "Hồ sơ App Review cho ứng dụng <b>KS PAGE POSTER 2</b> đã sẵn sàng gửi Meta; vẫn cần <b>anh bấm Submit</b> — việc này Thủy Tiên không tự bấm thay được.",
-          1
-        ],
-        [
-          "Carousel tủ HCK 48L kem cánh kính v5: đang chờ anh chốt",
-          0,
-          "Chờ anh",
-          "Bản v5 đã gửi anh chiều 08/11 (ảnh studio + cảnh vanity, giá Chỉ 5.xxx). Bản v4 bị anh trả lại lúc 16:28. Chưa đăng Facebook.",
           1
         ]
       ]
@@ -487,7 +462,7 @@
           "Video HCK mới ngày 2026-11-07: 12 video",
           0,
           "2026-11-07",
-          "Đợt quét HCK ngày 2026-11-07 ghi nhận <b>12 video mới</b>; kết quả đã báo vào nhóm (tin 850, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 08/11 chạy lúc 20:41.",
+          "Đợt quét HCK ngày 2026-11-07 ghi nhận <b>12 video mới</b>; kết quả đã báo vào nhóm (tin 850, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 09/11 chạy lúc 20:41.",
           0
         ],
         [
@@ -531,17 +506,17 @@
   "deadlines": [
     {
       "time": "06:00",
-      "title": "Lên lịch bài Page ngày 09/11",
-      "status": "done",
-      "status_label": "23/33 đã lên lịch",
-      "detail": "Ngày 09/11 đã lên lịch đủ 23/33 khung."
+      "title": "Lên lịch bài Page ngày 10/11",
+      "status": "doing",
+      "status_label": "31/33 khung sẵn sàng",
+      "detail": "31 khung đủ sàn (24 READY + 9 SHORT) nên buổi bấm còn 31 khung, đang chờ anh duyệt buổi bấm"
     },
     {
       "time": "12:00",
-      "title": "Lô SEO + sửa ảnh ngày 08/11",
-      "status": "done",
-      "status_label": "Đã báo nhóm",
-      "detail": "SEO lot 12: 2/20 trên 80 · sửa ảnh 10/10, đã báo nhóm"
+      "title": "Lô SEO + sửa ảnh ngày 09/11",
+      "status": "doing",
+      "status_label": "Chưa đủ lô hôm nay",
+      "detail": "Lô SEO mới nhất: lot 12 ngày 2026-11-08 (2/20 trên 80) · sửa ảnh mới nhất 2026-11-08 (10/10)."
     },
     {
       "time": "17:00",
@@ -552,11 +527,11 @@
     },
     {
       "time": "19:00",
-      "title": "Báo cáo quét HCK ngày 08/11",
-      "status": "done",
-      "status_label": "Đã báo nhóm",
-      "detail": "7 bài mới, đã báo nhóm (tin 859) · video chạy lúc 20:41"
+      "title": "Báo cáo quét HCK ngày 09/11",
+      "status": "doing",
+      "status_label": "Chưa quét hôm nay",
+      "detail": "Đợt quét mới nhất: 7 bài ngày 2026-11-08 (tin 859) · video chạy lúc 20:41."
     }
   ],
-  "deadlines_date": "08/11"
+  "deadlines_date": "09/11"
 }
