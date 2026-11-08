@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 00:36 +07",
+  "generated_at": "2026-11-09 01:36 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -48,10 +48,10 @@
           0
         ],
         [
-          "10/11: 31 khung sẵn sàng, buổi bấm đang chờ anh",
+          "10/11: 32 khung sẵn sàng, buổi bấm đang chờ anh",
           0,
-          "31/33",
-          "Ngày 10/11: 31 khung đủ sàn (24 READY + 9 SHORT) nên buổi bấm còn <b>31 khung</b>. Buổi bấm đang chờ anh duyệt.",
+          "32/33",
+          "Ngày 10/11: 32 khung đủ sàn (25 READY + 9 SHORT) nên buổi bấm còn <b>32 khung</b>. Buổi bấm đang chờ anh duyệt.",
           1
         ]
       ]
@@ -440,11 +440,11 @@
       "numbers": {
         "drive_total_items": 1561,
         "drive_new_after_watermark": 0,
-        "drive_last_scan": "drive-scan-1109-0015.json"
+        "drive_last_scan": "drive-scan-1109-0115.json"
       },
       "note": "Hourly recursive-listing watch; silent when nothing new.",
       "sources": [
-        "drive-scan-1109-0015.json"
+        "drive-scan-1109-0115.json"
       ]
     },
     "tiktok_reels": {
@@ -508,8 +508,8 @@
       "time": "06:00",
       "title": "Lên lịch bài Page ngày 10/11",
       "status": "doing",
-      "status_label": "31/33 khung sẵn sàng",
-      "detail": "31 khung đủ sàn (24 READY + 9 SHORT) nên buổi bấm còn 31 khung, đang chờ anh duyệt buổi bấm"
+      "status_label": "32/33 khung sẵn sàng",
+      "detail": "32 khung đủ sàn (25 READY + 9 SHORT) nên buổi bấm còn 32 khung, đang chờ anh duyệt buổi bấm"
     },
     {
       "time": "12:00",
