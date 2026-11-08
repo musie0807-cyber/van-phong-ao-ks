@@ -1,26 +1,33 @@
 {
-  "generated_at": "2026-11-08 20:08 +07",
+  "generated_at": "2026-11-08 20:24 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
       "title": "Nội dung Fanpage",
       "live": true,
       "numbers": {
-        "1106_scheduled": 25,
-        "1106_slots_total": 33,
-        "1106_held": 8,
         "1107_scheduled": 33,
         "1107_slots_total": 33,
-        "1107_unscheduled": 0,
-        "1107_photo_ready_4_4_preamble": 18,
-        "1107_photo_short_preamble": 15,
-        "1107_photo_held_preamble": 0
+        "1107_held": 0,
+        "1107_ready_4_4": 18,
+        "1107_short": 15,
+        "1107_schedulable_at_floor": 33,
+        "1107_schedulable_after_repeat_pull": 33,
+        "1108_scheduled": 33,
+        "1108_slots_total": 33,
+        "1108_held": 0,
+        "1108_ready_4_4": 17,
+        "1108_short": 16,
+        "1108_schedulable_at_floor": 33,
+        "1108_schedulable_after_repeat_pull": 33
       },
-      "note": "1107: 33 scheduled (log, each with a post ID), 0 unscheduled. Photo-readiness from the manifest preamble: 18 READY + 15 SHORT = 33 at floor, 0 HELD. facebook-cli 'pages posts' last gated 2026-11-06 ~09:47 (HTTP 403, Allow sitting blocked, 0 created); retry when it clears (previous gating cleared by next morning). 1107 drafts are all inbox-only (0 tease-eligible).",
+      "note": "1108: 33 scheduled (log, each with a post ID), 0 unscheduled. Photo-readiness from the manifest preamble (final state): 17 READY + 16 SHORT = 33 at floor, 0 HELD. 1109 prep: 23 schedulable at floor (15 READY + 8 SHORT); chị KS dropped all 10 HELD slots (group msg 852, 'Từ 1-10 bỏ ô'); 09:00 held pending TS05=GS05 confirmation, so the sitting is 22 slots — offered to anh 2026-11-08 06:35, awaiting his reply. 1107 drafts are all inbox-only (0 tease-eligible). facebook-cli 'pages posts' last gated 2026-11-06 ~09:47 (HTTP 403, Allow sitting blocked, 0 created); retry when it clears (previous gating cleared by next morning). ",
       "sources": [
-        "cli-schedule-1106-log.json",
         "cli-schedule-1107-log.json",
-        "facebook-schedule-manifest-2026-11-07.md"
+        "cli-schedule-1108-log.json",
+        "facebook-schedule-manifest-2026-11-07.md",
+        "facebook-schedule-manifest-2026-11-08.md",
+        "facebook-schedule-manifest-2026-11-09.md"
       ]
     },
     "phat_hanh": {
@@ -34,7 +41,7 @@
         "published_but_unshared": 0,
         "published_but_unshared_ids": []
       },
-      "note": "Seen/sharing ledgers are snapshots at different times (seen 2026-11-05 21:35, shared 15:38), so the 3 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. No published post is waiting to be shared right now. ",
+      "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. No published post is waiting to be shared right now. ",
       "pending_ids": [
         "1460641582830210",
         "1460642192830149",
@@ -170,14 +177,14 @@
       "numbers": {
         "hck_posts_new_latest_run": 7,
         "hck_posts_latest_run_date": "2026-11-08",
-        "hck_posts_latest_group_msg": 839,
+        "hck_posts_latest_group_msg": 859,
         "hck_videos_new_latest_run": 12,
         "hck_videos_latest_run_date": "2026-11-07",
-        "hck_videos_latest_group_msg": 840,
+        "hck_videos_latest_group_msg": 850,
         "hck_posts_baseline_urls": 28,
         "hck_videos_baseline_urls": 70
       },
-      "note": "Latest completed runs: 7 posts verified for 2026-11-08 (group msg 839) + 12 videos verified for 2026-11-07 (msg 840). The 7 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
+      "note": "Latest completed runs: 7 posts verified for 2026-11-08 (group msg 859) + 12 videos verified for 2026-11-07 (msg 850). The 7 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
       "sources": [
         "hck-scan-log.md",
         "hck-videos-baseline.json",
@@ -188,34 +195,41 @@
       "title": "Web / SEO",
       "live": true,
       "numbers": {
-        "web_products_live_dump_2026_11_05": 1970,
-        "seo_lot8_outcome_2026_11_05": "19/20",
-        "seo_8391_fixed_to": 80,
-        "seo_8391_fixed_date": "2026-11-05",
-        "seo_next_lot_starts_web_id": 8293,
+        "web_products_live_dump": 1995,
+        "web_products_live_dump_file": "wp-products-2026-11-08-seo.json",
+        "seo_latest_lot": "seo-audit-lot12-2026-11-08.md",
+        "seo_latest_lot_date": "2026-11-08",
+        "seo_latest_lot_above_80": "Above 80: 2/20",
+        "seo_next_lot_starts_web_id": 7753,
         "image_fix_latest_lot": "image-fix-lot-2026-11-08.md",
-        "image_fix_latest_fixable": null,
+        "image_fix_latest_fixable": 10,
         "image_fix_latest_not_fixable": 0,
         "image_fix_next_lot_starts_web_id": 7188,
-        "new_code_backlog_codes": 64,
+        "new_code_backlog_codes": 164,
         "new_code_backlog_breakdown": {
           "batch1_held": 2,
           "batch2_no_drafts": 23,
-          "batch3_unpublished": 26,
+          "batch3_unpublished": 19,
           "batch4_drafts_done": 31,
           "batch4_published_2026_11_06": 18,
-          "batch4_unpublished": 13
+          "batch4_unpublished": 13,
+          "batch5_no_drafts": 35,
+          "batch6_awaiting_approval": 34,
+          "batch7_shortlisted": 38
         }
       },
-      "note": "SEO audit lot 8 done 2026-11-05 (19/20 above Rank Math 80). 8391 was fixed 74 -> 80 on 2026-11-05 (chị approved; slug changed), so it is no longer pending. Image-fix lot 2026-11-06 prepared (? fixable, 0 not fixable: ?, no official image); next image-fix lot starts at 7188. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 26 unpublished (4 of 30 published) + batch-4 13 unpublished (18 of 31 published 2026-11-06 for the 17h lot, web 12623, 12638-12642, 12660-12662, 12678-12682).",
+      "note": "SEO audit lot seo-audit-lot12-2026-11-08.md (2026-11-08, web IDs 7773 → 7754): 2/20 above Rank Math 80. Next lot starts at web ID 7753. Image-fix lot 2026-11-08 APPLIED 2026-11-08 ~17:0x via wp-admin (10/10 fixable, live-verified on public pages); next image-fix lot starts at 7188. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
       "sources": [
-        "seo-audit-lot8-2026-11-05.md",
+        "seo-audit-lot12-2026-11-08.md",
         "image-fix-lot-2026-11-08.md",
         "new-batch2-shortlist-1103.json",
         "new-batch3-verify-1106.json",
         "new-batch4-shortlist-1105.json",
         "new-batch4-drafts/PROGRESS.md",
-        "wp-products-2026-11-05-evening.json"
+        "new-batch5-shortlist-1106.json",
+        "new-batch6-shortlist-1107.json",
+        "new-batch7-shortlist-1108.json",
+        "wp-products-2026-11-08-seo.json"
       ]
     },
     "nghien_cuu_gia": {
@@ -233,7 +247,7 @@
         ],
         "lot12h_latest_costs_unknown": 0
       },
-      "note": "Price-change list: 53 applied in total; 0 rows closed today (web IDs []). Latest 12h lot (web IDs 8293 -> 8093, 2026-11-06): 20 products researched, 2 proposed cuts (8276, 8177). Import costs: all 20 read from the import sheet 2026-11-06 02:20 (anh saved the Chu Ha Trung login 02:15), 0 unknown. No price changes without chị's approval for that batch. Thin-margin warning rule applies before finalising.",
+      "note": "Price-change list: 53 applied in total; 0 rows closed today (web IDs []). Latest 12h lot (lot12h-1107-margins.json): 20 products (web IDs 7790 → 8083), 1 proposed cut (8021)",
       "sources": [
         "lot12h-1107-margins.json",
         "continuous-work-state.md"
@@ -247,11 +261,20 @@
         "1107_decisions_answered": 9,
         "1107_decisions_open": 0,
         "1107_decisions_open_list": [],
-        "1107_scheduled": 33
+        "1108_decisions_total": 3,
+        "1108_decisions_answered": 0,
+        "1108_decisions_open": 3,
+        "1108_decisions_open_list": [
+          "11-09 Allow sitting (22 slots)",
+          "Meta App Review Submit",
+          "HCK carousel v5 verdict"
+        ],
+        "1108_scheduled": 33
       },
-      "note": "All 9 decisions for 11/07 answered by anh (1, 2, 3 on 2026-11-05; 4-9 blanket-approved 2026-11-06 02:29). Meta App Review for KS PAGE POSTER 2 still needs anh's Submit tap. 11-07: 33 of 33 slots scheduled (log, each with a post ID); the remaining slots are being filled from the approved sources.",
+      "note": "All 9 decisions for 11/07 answered by anh (1, 2, 3 on 2026-11-05; 4-9 blanket-approved 2026-11-06 02:29). OPEN 2026-11-08 (3): 11-09 Allow sitting, 22 slots (offered 06:35, awaiting anh); Meta App Review for KS PAGE POSTER 2 still needs anh's Submit tap; HCK carousel v5 verdict pending (v4 rejected 16:28, v5 delivered ~17:0x). Chị KS's B/C/D decisions (batch-6, FR06, DT2022, Stylies Phoenix, U13AQ) still pending her reply. 11-08: 33 of 33 slots scheduled (log, each with a post ID) and published through the day.",
       "sources": [
-        "facebook-schedule-manifest-2026-11-07.md"
+        "facebook-schedule-manifest-2026-11-08.md",
+        "facebook-schedule-manifest-2026-11-09.md"
       ]
     },
     "drive_media": {
@@ -260,18 +283,18 @@
       "numbers": {
         "drive_total_items": 1561,
         "drive_new_after_watermark": 0,
-        "drive_last_scan": "drive-scan-1108-1915.json"
+        "drive_last_scan": "drive-scan-1108-2015.json"
       },
       "note": "Hourly recursive-listing watch; silent when nothing new.",
       "sources": [
-        "drive-scan-1108-1915.json"
+        "drive-scan-1108-2015.json"
       ]
     },
     "tiktok_reels": {
       "title": "TikTok / Reels",
       "live": false,
       "numbers": {},
-      "note": "KS TikTok @ksgiadungnhapkhau, 572 followers (verified 2026-10-31). No Reels pipeline file exists yet; Reels prep is manual/continuous. HCK videos today: 9 new (see Kiểm tra lỗi Shop).",
+      "note": "KS TikTok @ksgiadungnhapkhau, 572 followers (verified 2026-10-31). No Reels pipeline file exists yet; Reels prep is manual/continuous. HCK videos latest: 12 new verified 2026-11-07 (group msg 850); today's video run is due 20:41 (see Kiểm tra lỗi Shop).",
       "sources": []
     },
     "edit_video": {
