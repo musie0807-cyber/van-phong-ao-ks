@@ -246,19 +246,19 @@
   <aside class="side">
     <section class="card" id="card-overview" aria-label="Tổng quan hôm nay">
       <h2>Tổng quan — số thật <span class="ts-day">08/11</span></h2>
-      <p class="sub">Chụp lúc <span class="ts-full">08/11/2026 20:20 +07</span> từ file trạng thái làm việc KS. Tư liệu Drive: 1.561 mục, không có mục mới — lần quét gần nhất drive-scan-1108-2015.json.</p>
+      <p class="sub">Chụp lúc <span class="ts-full">08/11/2026 20:20 +07</span> từ file trạng thái làm việc KS. <span id="drive-line">Tư liệu Drive: 1.561 mục, không có mục mới — lần quét gần nhất drive-scan-1108-2015.json.</span></p>
       <div class="kpis">
         <div class="kpi teal"><div class="num"><span id="kpi1-num">33</span><span style="font-size:14px;color:var(--muted)">/<span id="kpi1-total">33</span></span></div><div class="lbl">Bài Page <span id="kpi1-day">08/11</span> đã lên lịch<br>Còn <span id="kpi1-held">0</span> khung chờ</div></div>
         <div class="kpi warn"><div class="num"><span id="kpi2-num">33</span><span style="font-size:14px;color:var(--muted)">/<span id="kpi2-total">33</span></span></div><div class="lbl">Khung <span id="kpi2-day">08/11</span> đã lên lịch — sẵn sàng ảnh: READY <span id="kpi2-ready">17</span> · SHORT <span id="kpi2-short">16</span> · HELD <span id="kpi2-held">0</span>; còn <span id="kpi2-after">0</span> khung chưa lên lịch</div></div>
-        <div class="kpi good"><div class="num">3</div><div class="lbl">Quyết định cho 08/11 còn chờ<br>Buổi bấm 11-09 · App Review · carousel v5</div></div>
-        <div class="kpi good"><div class="num">53</div><div class="lbl">Giá đã áp tổng cộng theo quyết định chị Kim<br>Lô 12h 07/11: 1 đề xuất cắt (8021) chờ chị duyệt</div></div>
+        <div class="kpi good"><div class="num" id="kpi3-num">3</div><div class="lbl" id="kpi3-lbl">Quyết định cho 08/11 còn chờ<br>Buổi bấm 11-09 · App Review · carousel v5</div></div>
+        <div class="kpi good"><div class="num" id="kpi4-num">53</div><div class="lbl" id="kpi4-lbl">Giá đã áp tổng cộng theo quyết định chị Kim<br>Lô 12h 07/11: 1 đề xuất cắt (8021) chờ chị duyệt</div></div>
       </div>
     </section>
 
     <section class="card" aria-label="Hạn chót trong ngày">
-      <h2>Hạn chót hôm nay — 08/11</h2>
+      <h2 id="deadline-title">Hạn chót hôm nay — 08/11</h2>
       <p class="sub">Bốn mốc cố định mỗi ngày của chị KS.</p>
-      <ul class="tl">
+      <ul class="tl" id="deadline-list">
         <li><span class="time">06:00</span><span class="pip" style="background:#b45309"></span><span class="what"><b>Lên lịch bài Page ngày 09/11 <span class="st doing">22/33 khung sẵn sàng</span></b><span>22 khung đủ sàn (15 READY + 8 SHORT), đang chờ anh duyệt buổi bấm</span></span></li>
         <li><span class="time">12:00</span><span class="pip" style="background:#15803d"></span><span class="what"><b>Lô SEO + sửa ảnh ngày 08/11 <span class="st done">Đã báo nhóm</span></b><span>SEO lot 12: 2/20 trên 80 · sửa ảnh 10/10, đã báo nhóm (tin 857, 858)</span></span></li>
         <li><span class="time">17:00</span><span class="pip" style="background:#b45309"></span><span class="what"><b>Lô sản phẩm web mới <span class="st doing">Chờ chị duyệt</span></b><span>Batch-6: 34 mã chờ chị duyệt · batch-7: 38 mã mới quét</span></span></li>
@@ -594,11 +594,9 @@ function applyFanpageNumbers(n){
     if(typeof g.scheduled==='number' && typeof g.slots_total==='number'){
       setTxtById('kpi1-num',g.scheduled); setTxtById('kpi1-total',g.slots_total); setTxtById('kpi1-held',g.held); setTxtById('kpi1-day',day);
       r.done=g.scheduled;
-      if(typeof g.held==='number' && r.tasks[0]){
-        r.tasks[0][0]=day+': đã lên lịch '+g.scheduled+'/'+g.slots_total+' khung, còn '+g.held+' khung giữ';
-        r.tasks[0][2]=g.scheduled+'/'+g.slots_total;
-        r.tasks[0][3]='Ngày '+day+' có <b>'+g.slots_total+' khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>'+g.scheduled+' khung</b>; còn <b>'+g.held+' khung đang giữ</b> (HELD), chưa có bài.';
-      }
+      /* Task rows come from the feed builder now (rooms.fanpage.tasks) — the
+         old code rewrote tasks[0] here from the same numbers, which made two
+         sources of truth. Removed 2026-11-08; KPI updates stay. */
     }
     if(typeof g.ready_4_4==='number'){
       setTxtById('kpi2-num',g.schedulable_after_repeat_pull); setTxtById('kpi2-total',g.slots_total);
@@ -609,12 +607,110 @@ function applyFanpageNumbers(n){
       setTxtById('kpi2-floor',g.schedulable_at_floor);
       setTxtById('kpi2-after',(typeof g.slots_total==='number' && typeof g.scheduled==='number') ? g.slots_total-g.scheduled : g.schedulable_after_repeat_pull);
       setTxtById('kpi2-day',day);
-      if(r.tasks[1] && typeof g.short==='number' && typeof g.held==='number' && typeof g.schedulable_at_floor==='number' && typeof g.schedulable_after_repeat_pull==='number'){
-        r.tasks[1][0]=day+': READY '+g.ready_4_4+' · SHORT '+g.short+' · HELD '+g.held+' — đủ sàn '+g.schedulable_at_floor;
-        r.tasks[1][3]='Mức sẵn sàng ảnh của manifest '+day+': <b>'+g.ready_4_4+' khung READY</b>, <b>'+g.short+' khung SHORT</b>, <b>'+g.held+' khung HELD</b> — <b>đủ sàn '+g.schedulable_at_floor+' khung</b>.';
-      }
+      /* Task rows come from the feed builder now (rooms.fanpage.tasks) — the
+         old code rewrote tasks[0]/tasks[1] here from the same numbers, which
+         made two sources of truth. Removed 2026-11-08; KPI updates stay. */
     }
   });
+}
+/* Deadlines + room tasks are feed-driven since 2026-11-08 (anh: "làm luôn
+   cho trang tự cập nhật"). The builder composes them from the same parsed
+   sources as the numbers, so the hourly feed rebuild keeps the page current
+   with no manual HTML edit. The embedded HTML stays as the offline fallback:
+   these functions only replace content when the feed provides a valid array,
+   and a malformed feed row is skipped, never rendered. Task rows are the
+   same 5-field arrays as the embedded ROOMS tasks:
+   [title, done 0/1, badge, detail HTML, err 0/1]. */
+function validTask(t){
+  return Array.isArray(t) && t.length===5
+    && typeof t[0]==='string' && typeof t[1]==='number'
+    && typeof t[2]==='string' && typeof t[3]==='string'
+    && typeof t[4]==='number';
+}
+function applyFeedTasks(data){
+  if(!data.rooms || typeof data.rooms!=='object') return;
+  Object.keys(FEED_MAP).forEach(function(fk){
+    var fr=data.rooms[fk]; if(!fr || typeof fr!=='object') return;
+    var r=byId[FEED_MAP[fk]]; if(!r) return;
+    if(Array.isArray(fr.tasks) && fr.tasks.length && fr.tasks.every(validTask)){
+      r.tasks=fr.tasks.map(function(t){
+        return [t[0], t[1]?1:0, t[2], t[3], t[4]?1:0];
+      });
+    }
+  });
+}
+function applyDeadlines(data){
+  if(!Array.isArray(data.deadlines) || !data.deadlines.length) return;
+  var ok=data.deadlines.every(function(d){
+    return d && typeof d==='object' && typeof d.time==='string'
+      && typeof d.title==='string' && (d.status==='done' || d.status==='doing')
+      && typeof d.status_label==='string' && typeof d.detail==='string';
+  });
+  if(!ok) return;
+  var title=document.getElementById('deadline-title');
+  if(title && typeof data.deadlines_date==='string')
+    title.textContent='Hạn chót hôm nay — '+data.deadlines_date;
+  var ul=document.getElementById('deadline-list');
+  if(!ul) return;
+  ul.innerHTML='';
+  data.deadlines.forEach(function(d){
+    var done=(d.status==='done');
+    var li=document.createElement('li');
+    var time=document.createElement('span'); time.className='time'; time.textContent=d.time;
+    var pip=document.createElement('span'); pip.className='pip';
+    pip.style.background=done?'#15803d':'#b45309';
+    var what=document.createElement('span'); what.className='what';
+    var b=document.createElement('b'); b.textContent=d.title+' ';
+    var st=document.createElement('span'); st.className='st '+(done?'done':'doing'); st.textContent=d.status_label;
+    b.appendChild(st); what.appendChild(b);
+    var det=document.createElement('span'); det.textContent=d.detail;
+    what.appendChild(det);
+    li.appendChild(time); li.appendChild(pip); li.appendChild(what);
+    ul.appendChild(li);
+  });
+}
+function applyOverviewExtras(data){
+  /* KPI 3 (open decisions) + KPI 4 (prices applied) + Drive line — all were
+     embedded literals before 2026-11-08 and went stale with the rest. */
+  var gd=data.rooms && data.rooms.giam_doc && data.rooms.giam_doc.numbers;
+  if(gd){
+    if(typeof gd['1108_decisions_open']==='number') setTxtById('kpi3-num',gd['1108_decisions_open']);
+    var shorts=gd['1108_decisions_open_short'];
+    var k3=document.getElementById('kpi3-lbl');
+    if(k3 && Array.isArray(shorts)){
+      var day=(typeof data.deadlines_date==='string')?data.deadlines_date:TS.day;
+      k3.innerHTML='';
+      k3.appendChild(document.createTextNode('Quyết định cho '+day+' còn chờ'));
+      k3.appendChild(document.createElement('br'));
+      k3.appendChild(document.createTextNode(shorts.length?shorts.join(' · '):'Không còn quyết định nào chờ'));
+    }
+  }
+  var pr=data.rooms && data.rooms.nghien_cuu_gia && data.rooms.nghien_cuu_gia.numbers;
+  if(pr){
+    if(typeof pr.price_change_list_applied_total==='number') setTxtById('kpi4-num',pr.price_change_list_applied_total);
+    var k4=document.getElementById('kpi4-lbl');
+    if(k4 && typeof pr.lot12h_latest==='string'){
+      var lm=/lot12h-(\d{2})(\d{2})/.exec(pr.lot12h_latest);
+      var lotDay=lm?lm[2]+'/'+lm[1]:'';
+      var cutLine;
+      if(typeof pr.lot12h_latest_proposed_cuts==='number' && pr.lot12h_latest_proposed_cuts>0){
+        var ids=Array.isArray(pr.lot12h_latest_cut_web_ids)?pr.lot12h_latest_cut_web_ids.join(', '):'';
+        cutLine='Lô 12h '+lotDay+': '+pr.lot12h_latest_proposed_cuts+' đề xuất cắt ('+ids+') chờ chị duyệt';
+      } else {
+        cutLine='Lô 12h '+lotDay+': không có đề xuất cắt';
+      }
+      k4.innerHTML='';
+      k4.appendChild(document.createTextNode('Giá đã áp tổng cộng theo quyết định chị Kim'));
+      k4.appendChild(document.createElement('br'));
+      k4.appendChild(document.createTextNode(cutLine));
+    }
+  }
+  var dv=data.rooms && data.rooms.drive_media && data.rooms.drive_media.numbers;
+  var dl=document.getElementById('drive-line');
+  if(dv && dl && typeof dv.drive_total_items==='number'){
+    var fresh=(typeof dv.drive_new_after_watermark==='number')?dv.drive_new_after_watermark:null;
+    dl.textContent='Tư liệu Drive: '+dv.drive_total_items.toLocaleString('vi-VN')+' mục, '+(fresh===0?'không có mục mới':(fresh===null?'chưa rõ mục mới':fresh+' mục mới'))+' — lần quét gần nhất '+(dv.drive_last_scan||'')+'.';
+  }
 }
 function applyFeed(data){
   var t=parseFeedTime(data.generated_at);
@@ -640,6 +736,9 @@ function applyFeed(data){
     }
     if(typeof fr.note==='string' && fr.note) r.feedNote=fr.note;
   });
+  applyFeedTasks(data);
+  applyDeadlines(data);
+  applyOverviewExtras(data);
   if(data.rooms.fanpage && data.rooms.fanpage.numbers) applyFanpageNumbers(data.rooms.fanpage.numbers);
   refreshRoomButtons();
   buildPendingList();

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 21:38 +07",
+  "generated_at": "2026-11-08 21:48 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -19,7 +19,10 @@
         "1108_ready_4_4": 17,
         "1108_short": 16,
         "1108_schedulable_at_floor": 33,
-        "1108_schedulable_after_repeat_pull": 33
+        "1108_schedulable_after_repeat_pull": 33,
+        "pending": 0,
+        "done": 33,
+        "prog": 100
       },
       "note": "1108: 33 scheduled (log, each with a post ID), 0 unscheduled. Photo-readiness from the manifest preamble (final state): 17 READY + 16 SHORT = 33 at floor, 0 HELD. 1109 prep: 23 schedulable at floor (15 READY + 8 SHORT); chị KS dropped all 10 HELD slots (group msg 852, 'Từ 1-10 bỏ ô'); 09:00 held pending TS05=GS05 confirmation, so the sitting is 22 slots — offered to anh 2026-11-08 06:35, awaiting his reply. 1107 drafts are all inbox-only (0 tease-eligible). facebook-cli 'pages posts' last gated 2026-11-06 ~09:47 (HTTP 403, Allow sitting blocked, 0 created); retry when it clears (previous gating cleared by next morning). ",
       "sources": [
@@ -28,6 +31,36 @@
         "facebook-schedule-manifest-2026-11-07.md",
         "facebook-schedule-manifest-2026-11-08.md",
         "facebook-schedule-manifest-2026-11-09.md"
+      ],
+      "tasks": [
+        [
+          "08/11: đã lên lịch 33/33 khung",
+          1,
+          "33/33",
+          "Ngày 08/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>đủ 33 khung</b>; các bài đăng dần trong ngày và được chia sẻ sang trang cá nhân.",
+          0
+        ],
+        [
+          "08/11 — sẵn sàng ảnh: READY 17 · SHORT 16 · HELD 0",
+          1,
+          "0 HELD",
+          "Mức sẵn sàng ảnh của manifest 08/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
+          0
+        ],
+        [
+          "09/11: 22 khung sẵn sàng, buổi bấm đang chờ anh",
+          0,
+          "22/33",
+          "Ngày 09/11: 23 khung đủ sàn (15 READY + 8 SHORT); chị đã bỏ 10 khung HELD (tin 852); khung 09:00 đang giữ (chờ xác nhận TS05 = GS05) nên buổi bấm còn <b>22 khung</b>. Buổi bấm đang chờ anh duyệt.",
+          1
+        ],
+        [
+          "Cả 33 bài 08/11 chỉ inbox — 0 bài đủ điều kiện ghi giá",
+          1,
+          "",
+          "Toàn bộ <b>33 bài</b> ngày 08/11 là <b>inbox-only</b>: <b>0 bài đủ điều kiện ghi giá</b> nên không ghi giá trong nội dung; khách quan tâm nhắn inbox để được báo giá.",
+          0
+        ]
       ]
     },
     "phat_hanh": {
@@ -39,7 +72,10 @@
         "seen_not_shared_snapshot": 122,
         "shared_not_in_seen_snapshot": 30,
         "published_but_unshared": 0,
-        "published_but_unshared_ids": []
+        "published_but_unshared_ids": [],
+        "pending": 0,
+        "done": 205,
+        "prog": 100
       },
       "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. No published post is waiting to be shared right now. ",
       "pending_ids": [
@@ -169,6 +205,29 @@
       "sources": [
         "dual-post-seen-20261108.json",
         "dual-post-shared.json"
+      ],
+      "tasks": [
+        [
+          "Đã thấy 297 bài, đã chia sẻ 205 bài (phạm vi từ 02/11)",
+          0,
+          "205/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>205 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          0
+        ],
+        [
+          "0 bài đã đăng chưa chia sẻ",
+          1,
+          "",
+          "Toàn bộ bài đã đăng trên Page đều đã được chia sẻ — <b>không còn bài nào chưa chia sẻ</b>. Sổ đã thấy (297) và sổ đã chia sẻ (205) chụp ở thời điểm khác nhau nên có 122 mã chênh lệch, cần kiểm tra trực tiếp trước khi chia sẻ thêm.",
+          0
+        ],
+        [
+          "30 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          0,
+          "Ngoài danh sách",
+          "Có <b>30 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          0
+        ]
       ]
     },
     "kiem_tra_loi_shop": {
@@ -182,13 +241,46 @@
         "hck_videos_latest_run_date": "2026-11-07",
         "hck_videos_latest_group_msg": 850,
         "hck_posts_baseline_urls": 55,
-        "hck_videos_baseline_urls": 85
+        "hck_videos_baseline_urls": 85,
+        "pending": 0,
+        "done": 7,
+        "prog": null
       },
       "note": "Latest completed runs: 7 posts verified for 2026-11-08 (group msg 859) + 12 videos verified for 2026-11-07 (msg 850). The 7 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
       "sources": [
         "hck-scan-log.md",
         "hck-videos-baseline.json",
         "hck-product-posts-baseline.json"
+      ],
+      "tasks": [
+        [
+          "HCK bài đăng ngày 2026-11-08: 7 bài mới đã xác minh",
+          0,
+          "2026-11-08",
+          "Đợt quét bài đăng HCK mới nhất ghi nhận <b>7 bài đăng đã xác minh (verified) cho ngày 2026-11-08</b>; kết quả đã báo vào nhóm Telegram (tin 859).",
+          0
+        ],
+        [
+          "HCK video ngày 2026-11-07: 12 video mới đã xác minh",
+          0,
+          "2026-11-07",
+          "Đợt quét video HCK mới nhất ghi nhận <b>12 video đã xác minh (verified) cho ngày 2026-11-07</b>; kết quả đã báo vào nhóm Telegram (tin 850). Đợt quét video ngày 08/11 chạy lúc 20:41.",
+          0
+        ],
+        [
+          "Đã báo nhóm — tin 859 (bài 2026-11-08) và 850 (video 2026-11-07)",
+          1,
+          "",
+          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 859</b> cho 7 bài đăng ngày 2026-11-08, <b>tin 850</b> cho 12 video ngày 2026-11-07.",
+          0
+        ],
+        [
+          "Baseline HCK: 55 đường link bài + 85 đường link video",
+          0,
+          "",
+          "Danh sách baseline để đối chiếu HCK gồm <b>55 đường link bài đăng</b> và <b>85 đường link video</b>.",
+          0
+        ]
       ]
     },
     "web_seo": {
@@ -216,7 +308,10 @@
           "batch5_no_drafts": 35,
           "batch6_awaiting_approval": 34,
           "batch7_shortlisted": 38
-        }
+        },
+        "pending": 164,
+        "done": 2,
+        "prog": 10
       },
       "note": "SEO audit lot seo-audit-lot12-2026-11-08.md (2026-11-08, web IDs 7773 → 7754): 2/20 above Rank Math 80. Next lot starts at web ID 7753. Image-fix lot 2026-11-08 APPLIED 2026-11-08 ~17:0x via wp-admin (10/10 fixable, live-verified on public pages); next image-fix lot starts at 7188. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
       "sources": [
@@ -230,6 +325,36 @@
         "new-batch6-shortlist-1107.json",
         "new-batch7-shortlist-1108.json",
         "wp-products-2026-11-08-seo.json"
+      ],
+      "tasks": [
+        [
+          "Web KS hiện có 1.995 sản phẩm",
+          0,
+          "Số thật",
+          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>1.995 sản phẩm</b> (số chụp ngày 08/11).",
+          0
+        ],
+        [
+          "SEO lô 12 ngày 08/11: 2/20 bài trên 80 điểm; lô tiếp theo bắt đầu từ 7753",
+          0,
+          "2/20",
+          "Lô SEO số 12 ngày 08/11 (web 7773 → 7754): <b>2 trên 20 bài</b> đạt trên 80 điểm Rank Math (7771: 85, 7754: 84). 16 bài còn lại ở 4–10 điểm, chưa có từ khóa trọng tâm — cần viết lại nội dung + phản biện ChatGPT.",
+          0
+        ],
+        [
+          "Lô sửa ảnh 2026-11-08: đã áp dụng — 10/10 mục, đã kiểm chứng trực tiếp",
+          1,
+          "",
+          "Lô sửa ảnh <b>2026-11-08</b> đã <b>áp dụng</b>: <b>10/10 mục</b> đã áp dụng và <b>kiểm chứng trực tiếp (live-verified) trên trang công khai</b>. Lô sửa ảnh tiếp theo bắt đầu từ <b>web id 7188</b>.",
+          0
+        ],
+        [
+          "Tồn đọng: 164 mã mới chờ đăng web",
+          0,
+          "Tồn 164 mã",
+          "Còn <b>164 mã sản phẩm mới</b> đang chờ đăng lên web (lô 1: 2 giữ · lô 2: 23 chưa có bản nháp · lô 3: 19 chưa đăng · lô 4: 13 chưa đăng · lô 5: 35 chưa có bản nháp · lô 6: 34 chờ chị duyệt · lô 7: 38 mới quét).",
+          1
+        ]
       ]
     },
     "nghien_cuu_gia": {
@@ -245,12 +370,31 @@
         "lot12h_latest_cut_web_ids": [
           8021
         ],
-        "lot12h_latest_costs_unknown": 0
+        "lot12h_latest_costs_unknown": 0,
+        "pending": 1,
+        "done": 53,
+        "prog": 98
       },
       "note": "Price-change list: 53 applied in total; 0 rows closed today (web IDs []). Latest 12h lot (lot12h-1107-margins.json): 20 products (web IDs 7790 → 8083), 1 proposed cut (8021)",
       "sources": [
         "lot12h-1107-margins.json",
         "continuous-work-state.md"
+      ],
+      "tasks": [
+        [
+          "Danh sách thay đổi giá: 53 giá đã áp theo quyết định chị Kim",
+          1,
+          "",
+          "<b>53 mã</b> đã được áp giá mới theo đúng quyết định của chị Kim (danh sách thay đổi giá, sheet A).",
+          0
+        ],
+        [
+          "Lô giá 12h 07/11: 1 đề xuất cắt (8021) chờ chị duyệt",
+          0,
+          "Chờ duyệt",
+          "Lô 12h ngày 07/11 (20 sản phẩm, web 8083 → 7790): đề xuất cắt <b>mã 8021 Thùng rác chống bám vân tay EKO X Cube EK9368MT-30L từ 3.800.000 xuống 3.050.000</b>; 19 mã còn lại giữ nguyên. Chưa áp dụng cho tới khi chị duyệt.",
+          1
+        ]
       ]
     },
     "giam_doc": {
@@ -269,12 +413,50 @@
           "Meta App Review Submit",
           "HCK carousel v5 verdict"
         ],
-        "1108_scheduled": 33
+        "1108_scheduled": 33,
+        "pending": 3,
+        "done": 9,
+        "prog": 75,
+        "1108_decisions_open_short": [
+          "Buổi bấm 11-09",
+          "App Review",
+          "carousel v5"
+        ]
       },
       "note": "All 9 decisions for 11/07 answered by anh (1, 2, 3 on 2026-11-05; 4-9 blanket-approved 2026-11-06 02:29). OPEN 2026-11-08 (3): 11-09 Allow sitting, 22 slots (offered 06:35, awaiting anh); Meta App Review for KS PAGE POSTER 2 still needs anh's Submit tap; HCK carousel v5 verdict pending (v4 rejected 16:28, v5 delivered ~17:0x). Chị KS's B/C/D decisions (batch-6, FR06, DT2022, Stylies Phoenix, U13AQ) still pending her reply. 11-08: 33 of 33 slots scheduled (log, each with a post ID) and published through the day.",
       "sources": [
         "facebook-schedule-manifest-2026-11-08.md",
         "facebook-schedule-manifest-2026-11-09.md"
+      ],
+      "tasks": [
+        [
+          "9 quyết định cho ngày 07/11: đã trả lời đủ 9/9",
+          1,
+          "",
+          "Đã trả lời <b>đủ 9 trong 9</b> quyết định cho lịch đăng ngày 07/11 (quyết định 1, 2, 3 ngày 05/11; quyết định 4–9 được duyệt gộp ngày 06/11).",
+          0
+        ],
+        [
+          "09/11: buổi bấm Allow 22 khung — đang chờ anh duyệt",
+          0,
+          "22/33",
+          "Ngày 09/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. 23 khung đủ sàn (15 READY + 8 SHORT); chị đã bỏ 10 khung HELD (tin 852); khung 09:00 đang giữ (chờ xác nhận TS05 = GS05) nên buổi bấm còn <b>22 khung</b>. Buổi bấm đã gửi anh lúc 06:35 ngày 08/11, đang chờ anh trả lời.",
+          1
+        ],
+        [
+          "Meta App Review (KS PAGE POSTER 2): vẫn cần anh bấm Submit",
+          0,
+          "Chờ anh",
+          "Hồ sơ App Review cho ứng dụng <b>KS PAGE POSTER 2</b> đã sẵn sàng gửi Meta; vẫn cần <b>anh bấm Submit</b> — việc này Thủy Tiên không tự bấm thay được.",
+          1
+        ],
+        [
+          "Carousel tủ HCK 48L kem cánh kính v5: đang chờ anh chốt",
+          0,
+          "Chờ anh",
+          "Bản v5 đã gửi anh chiều 08/11 (ảnh studio + cảnh vanity, giá Chỉ 5.xxx). Bản v4 bị anh trả lại lúc 16:28. Chưa đăng Facebook.",
+          1
+        ]
       ]
     },
     "drive_media": {
@@ -293,9 +475,36 @@
     "tiktok_reels": {
       "title": "TikTok / Reels",
       "live": false,
-      "numbers": {},
+      "numbers": {
+        "pending": 0,
+        "done": 12,
+        "prog": null
+      },
       "note": "KS TikTok @ksgiadungnhapkhau, 572 followers (verified 2026-10-31). No Reels pipeline file exists yet; Reels prep is manual/continuous. HCK videos latest: 12 new verified 2026-11-07 (group msg 850); today's video run is due 20:41 (see Kiểm tra lỗi Shop).",
-      "sources": []
+      "sources": [],
+      "tasks": [
+        [
+          "Video HCK mới ngày 2026-11-07: 12 video",
+          0,
+          "2026-11-07",
+          "Đợt quét HCK ngày 2026-11-07 ghi nhận <b>12 video mới</b>; kết quả đã báo vào nhóm (tin 850, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 08/11 chạy lúc 20:41.",
+          0
+        ],
+        [
+          "Tài khoản KS @ksgiadungnhapkhau: 572 người theo dõi",
+          0,
+          "",
+          "Tài khoản TikTok KS <b>@ksgiadungnhapkhau</b> có <b>572 người theo dõi</b> (số chụp ngày 31/10).",
+          0
+        ],
+        [
+          "Reels KS: chưa có pipeline số liệu tự động — theo dõi thủ công",
+          0,
+          "Thủ công",
+          "Reels trên Page KS chưa nối pipeline số liệu tự động; phần này đang theo dõi bằng tay nên không có con số tổng hợp trên trang.",
+          0
+        ]
+      ]
     },
     "edit_video": {
       "title": "Edit video",
@@ -318,5 +527,36 @@
       "note": "No training queue file; anh trains Thủy Tiên with documents. Manual.",
       "sources": []
     }
-  }
+  },
+  "deadlines": [
+    {
+      "time": "06:00",
+      "title": "Lên lịch bài Page ngày 09/11",
+      "status": "doing",
+      "status_label": "22/33 khung sẵn sàng",
+      "detail": "23 khung đủ sàn (15 READY + 8 SHORT); chị đã bỏ 10 khung HELD (tin 852); khung 09:00 đang giữ (chờ xác nhận TS05 = GS05) nên buổi bấm còn 22 khung, đang chờ anh duyệt buổi bấm"
+    },
+    {
+      "time": "12:00",
+      "title": "Lô SEO + sửa ảnh ngày 08/11",
+      "status": "done",
+      "status_label": "Đã báo nhóm",
+      "detail": "SEO lot 12: 2/20 trên 80 · sửa ảnh 10/10, đã báo nhóm"
+    },
+    {
+      "time": "17:00",
+      "title": "Lô sản phẩm web mới",
+      "status": "doing",
+      "status_label": "Chờ chị duyệt",
+      "detail": "Batch-6: 34 mã chờ chị duyệt · batch-7: 38 mã mới quét"
+    },
+    {
+      "time": "19:00",
+      "title": "Báo cáo quét HCK ngày 08/11",
+      "status": "done",
+      "status_label": "Đã báo nhóm",
+      "detail": "7 bài mới, đã báo nhóm (tin 859) · video chạy lúc 20:41"
+    }
+  ],
+  "deadlines_date": "08/11"
 }
