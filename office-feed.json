@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 08:10 +07",
+  "generated_at": "2026-11-08 08:38 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -28,9 +28,9 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 178,
+        "shared_posts": 179,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 3,
+        "shared_not_in_seen_snapshot": 4,
         "published_but_unshared": 0,
         "published_but_unshared_ids": []
       },
@@ -260,11 +260,11 @@
       "numbers": {
         "drive_total_items": 1561,
         "drive_new_after_watermark": 0,
-        "drive_last_scan": "drive-scan-1108-0715.json"
+        "drive_last_scan": "drive-scan-1108-0815.json"
       },
       "note": "Hourly recursive-listing watch; silent when nothing new.",
       "sources": [
-        "drive-scan-1108-0715.json"
+        "drive-scan-1108-0815.json"
       ]
     },
     "tiktok_reels": {
