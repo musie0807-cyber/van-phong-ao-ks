@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 22:53 +07",
+  "generated_at": "2026-11-08 23:10 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -48,10 +48,10 @@
           0
         ],
         [
-          "09/11: đã lên lịch 22/33 khung",
+          "09/11: đã lên lịch 23/33 khung",
           1,
-          "22/33",
-          "Ngày 09/11 đã lên lịch đủ 22/33 khung.",
+          "23/33",
+          "Ngày 09/11 đã lên lịch đủ 23/33 khung.",
           0
         ],
         [
@@ -68,13 +68,13 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 207,
+        "shared_posts": 208,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 32,
+        "shared_not_in_seen_snapshot": 33,
         "published_but_unshared": 0,
         "published_but_unshared_ids": [],
         "pending": 0,
-        "done": 207,
+        "done": 208,
         "prog": 100
       },
       "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. No published post is waiting to be shared right now. ",
@@ -208,24 +208,24 @@
       ],
       "tasks": [
         [
-          "Đã thấy 297 bài, đã chia sẻ 207 bài (phạm vi từ 02/11)",
+          "Đã thấy 297 bài, đã chia sẻ 208 bài (phạm vi từ 02/11)",
           0,
-          "207/297",
-          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>207 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          "208/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>208 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
           0
         ],
         [
           "0 bài đã đăng chưa chia sẻ",
           1,
           "",
-          "Toàn bộ bài đã đăng trên Page đều đã được chia sẻ — <b>không còn bài nào chưa chia sẻ</b>. Sổ đã thấy (297) và sổ đã chia sẻ (207) chụp ở thời điểm khác nhau nên có 122 mã chênh lệch, cần kiểm tra trực tiếp trước khi chia sẻ thêm.",
+          "Toàn bộ bài đã đăng trên Page đều đã được chia sẻ — <b>không còn bài nào chưa chia sẻ</b>. Sổ đã thấy (297) và sổ đã chia sẻ (208) chụp ở thời điểm khác nhau nên có 122 mã chênh lệch, cần kiểm tra trực tiếp trước khi chia sẻ thêm.",
           0
         ],
         [
-          "32 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          "33 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
           0,
           "Ngoài danh sách",
-          "Có <b>32 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          "Có <b>33 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
           0
         ]
       ]
@@ -437,10 +437,10 @@
           0
         ],
         [
-          "09/11: buổi bấm Allow 22 khung — đang chờ anh duyệt",
+          "09/11: buổi bấm Allow 23 khung — đang chờ anh duyệt",
           0,
-          "22/33",
-          "Ngày 09/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. 23 khung đủ sàn (15 READY + 8 SHORT); chị đã bỏ 10 khung HELD (tin 852); khung 09:00 đang giữ (chờ xác nhận TS05 = GS05) nên buổi bấm còn <b>22 khung</b>. Buổi bấm đã gửi anh lúc 06:35 ngày 08/11, đang chờ anh trả lời.",
+          "23/33",
+          "Ngày 09/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. 23 khung đủ sàn (15 READY + 8 SHORT); chị đã bỏ 10 khung HELD (tin 852); khung 09:00 đang giữ (chờ xác nhận TS05 = GS05) nên buổi bấm còn <b>23 khung</b>. Buổi bấm đã gửi anh lúc 06:35 ngày 08/11, đang chờ anh trả lời.",
           1
         ],
         [
@@ -533,8 +533,8 @@
       "time": "06:00",
       "title": "Lên lịch bài Page ngày 09/11",
       "status": "done",
-      "status_label": "22/33 đã lên lịch",
-      "detail": "Ngày 09/11 đã lên lịch đủ 22/33 khung."
+      "status_label": "23/33 đã lên lịch",
+      "detail": "Ngày 09/11 đã lên lịch đủ 23/33 khung."
     },
     {
       "time": "12:00",
