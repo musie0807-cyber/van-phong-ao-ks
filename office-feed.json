@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08 16:38 +07",
+  "generated_at": "2026-11-08 16:56 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -195,8 +195,8 @@
         "seo_next_lot_starts_web_id": 8293,
         "image_fix_latest_lot": "image-fix-lot-2026-11-08.md",
         "image_fix_latest_fixable": null,
-        "image_fix_latest_not_fixable": null,
-        "image_fix_next_lot_starts_web_id": null,
+        "image_fix_latest_not_fixable": 0,
+        "image_fix_next_lot_starts_web_id": 7188,
         "new_code_backlog_codes": 64,
         "new_code_backlog_breakdown": {
           "batch1_held": 2,
@@ -207,7 +207,7 @@
           "batch4_unpublished": 13
         }
       },
-      "note": "SEO audit lot 8 done 2026-11-05 (19/20 above Rank Math 80). 8391 was fixed 74 -> 80 on 2026-11-05 (chị approved; slug changed), so it is no longer pending. Image-fix lot 2026-11-06 prepared (? fixable, ? not fixable: ?, no official image); next image-fix lot starts at None. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 26 unpublished (4 of 30 published) + batch-4 13 unpublished (18 of 31 published 2026-11-06 for the 17h lot, web 12623, 12638-12642, 12660-12662, 12678-12682).",
+      "note": "SEO audit lot 8 done 2026-11-05 (19/20 above Rank Math 80). 8391 was fixed 74 -> 80 on 2026-11-05 (chị approved; slug changed), so it is no longer pending. Image-fix lot 2026-11-06 prepared (? fixable, 0 not fixable: ?, no official image); next image-fix lot starts at 7188. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 26 unpublished (4 of 30 published) + batch-4 13 unpublished (18 of 31 published 2026-11-06 for the 17h lot, web 12623, 12638-12642, 12660-12662, 12678-12682).",
       "sources": [
         "seo-audit-lot8-2026-11-05.md",
         "image-fix-lot-2026-11-08.md",
