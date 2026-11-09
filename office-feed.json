@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 13:37 +07",
+  "generated_at": "2026-11-09 14:06 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -283,7 +283,7 @@
       "live": true,
       "numbers": {
         "web_products_live_dump": 1995,
-        "web_products_live_dump_file": "wp-products-2026-11-08-seo.json",
+        "web_products_live_dump_file": "wp-products-2026-11-09-seo.json",
         "seo_latest_lot": "seo-audit-lot12-2026-11-08.md",
         "seo_latest_lot_date": "2026-11-08",
         "seo_latest_lot_above_80": "Above 80: 2/20",
@@ -319,7 +319,7 @@
         "new-batch5-shortlist-1106.json",
         "new-batch6-shortlist-1107.json",
         "new-batch7-shortlist-1108.json",
-        "wp-products-2026-11-08-seo.json"
+        "wp-products-2026-11-09-seo.json"
       ],
       "tasks": [
         [
