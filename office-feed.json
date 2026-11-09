@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 17:38 +07",
+  "generated_at": "2026-11-09 17:52 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -288,10 +288,10 @@
         "seo_latest_lot_date": "2026-11-09",
         "seo_latest_lot_above_80": "Above 80: 7/20",
         "seo_next_lot_starts_web_id": 7732,
-        "image_fix_latest_lot": "image-fix-lot-2026-11-08.md",
-        "image_fix_latest_fixable": 10,
-        "image_fix_latest_not_fixable": 0,
-        "image_fix_next_lot_starts_web_id": 7188,
+        "image_fix_latest_lot": "image-fix-lot-2026-11-09.md",
+        "image_fix_latest_fixable": 6,
+        "image_fix_latest_not_fixable": 3,
+        "image_fix_next_lot_starts_web_id": 7029,
         "new_code_backlog_codes": 164,
         "new_code_backlog_breakdown": {
           "batch1_held": 2,
@@ -308,10 +308,10 @@
         "done": 7,
         "prog": 35
       },
-      "note": "SEO audit lot seo-audit-lot13-2026-11-09.md (2026-11-09, web IDs 7753 → 7733): 7/20 above Rank Math 80. Next lot starts at web ID 7732. Image-fix lot 2026-11-08 APPLIED 2026-11-08 ~17:0x via wp-admin (10/10 fixable, live-verified on public pages); next image-fix lot starts at 7188. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
+      "note": "SEO audit lot seo-audit-lot13-2026-11-09.md (2026-11-09, web IDs 7753 → 7733): 7/20 above Rank Math 80. Next lot starts at web ID 7732. Image-fix lot 2026-11-09 APPLIED 2026-11-09 ~17:5x via wp-admin (6/6 fixable, live-verified on public pages; 1 held: 7188, pending approver source exception); next image-fix lot starts at 7029. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
       "sources": [
         "seo-audit-lot13-2026-11-09.md",
-        "image-fix-lot-2026-11-08.md",
+        "image-fix-lot-2026-11-09.md",
         "new-batch2-shortlist-1103.json",
         "new-batch3-verify-1106.json",
         "new-batch4-shortlist-1105.json",
@@ -337,10 +337,10 @@
           0
         ],
         [
-          "Lô sửa ảnh 2026-11-08: đã áp dụng — 10/10 mục, đã kiểm chứng trực tiếp",
+          "Lô sửa ảnh 2026-11-09: đã áp dụng — 6/6 mục, đã kiểm chứng trực tiếp",
           1,
           "",
-          "Lô sửa ảnh <b>2026-11-08</b> đã <b>áp dụng</b>: <b>10/10 mục</b> đã áp dụng và <b>kiểm chứng trực tiếp (live-verified) trên trang công khai</b>. Lô sửa ảnh tiếp theo bắt đầu từ <b>web id 7188</b>.",
+          "Lô sửa ảnh <b>2026-11-09</b> đã <b>áp dụng</b>: <b>6/6 mục</b> đã áp dụng và <b>kiểm chứng trực tiếp (live-verified) trên trang công khai</b>. Lô sửa ảnh tiếp theo bắt đầu từ <b>web id 7029</b>.",
           0
         ],
         [
@@ -513,9 +513,9 @@
     {
       "time": "12:00",
       "title": "Lô SEO + sửa ảnh ngày 09/11",
-      "status": "doing",
-      "status_label": "Chưa đủ lô hôm nay",
-      "detail": "Lô SEO mới nhất: lot 13 ngày 2026-11-09 (7/20 trên 80) · sửa ảnh mới nhất 2026-11-08 (10/10)."
+      "status": "done",
+      "status_label": "Đã báo nhóm",
+      "detail": "SEO lot 13: 7/20 trên 80 · sửa ảnh 6/6, đã báo nhóm"
     },
     {
       "time": "17:00",
