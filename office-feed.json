@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 15:39 +07",
+  "generated_at": "2026-11-09 16:08 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -61,16 +61,16 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 221,
+        "shared_posts": 222,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 46,
+        "shared_not_in_seen_snapshot": 47,
         "published_but_unshared": 1,
         "published_but_unshared_ids": [
           "1288281056850201"
         ],
         "pending": 1,
-        "done": 221,
-        "prog": 74
+        "done": 222,
+        "prog": 75
       },
       "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. Published-but-unshared right now: 1 (1288281056850201 @ 2026-11-09 12:30 +07) — share each once, never twice. ",
       "pending_ids": [
@@ -203,10 +203,10 @@
       ],
       "tasks": [
         [
-          "Đã thấy 297 bài, đã chia sẻ 221 bài (phạm vi từ 02/11)",
+          "Đã thấy 297 bài, đã chia sẻ 222 bài (phạm vi từ 02/11)",
           0,
-          "221/297",
-          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>221 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          "222/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>222 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
           0
         ],
         [
@@ -217,10 +217,10 @@
           1
         ],
         [
-          "46 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          "47 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
           0,
           "Ngoài danh sách",
-          "Có <b>46 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          "Có <b>47 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
           0
         ]
       ]
@@ -356,9 +356,17 @@
       "title": "Nghiên cứu giá",
       "live": true,
       "numbers": {
-        "price_change_list_applied_total": 53,
-        "price_change_list_closed_today": 0,
-        "price_change_list_closed_today_web_ids": [],
+        "price_change_list_applied_total": 60,
+        "price_change_list_closed_today": 7,
+        "price_change_list_closed_today_web_ids": [
+          7783,
+          7780,
+          7779,
+          7778,
+          7777,
+          7771,
+          7770
+        ],
         "lot12h_latest": "lot12h-1107-margins.json",
         "lot12h_latest_products": 20,
         "lot12h_latest_proposed_cuts": 1,
@@ -367,20 +375,20 @@
         ],
         "lot12h_latest_costs_unknown": 0,
         "pending": 1,
-        "done": 53,
+        "done": 60,
         "prog": 98
       },
-      "note": "Price-change list: 53 applied in total; 0 rows closed today (web IDs []). Latest 12h lot (lot12h-1107-margins.json): 20 products (web IDs 7790 → 8083), 1 proposed cut (8021)",
+      "note": "Price-change list: 60 applied in total; 7 rows closed today (web IDs [7783, 7780, 7779, 7778, 7777, 7771, 7770]). Latest 12h lot (lot12h-1107-margins.json): 20 products (web IDs 7790 → 8083), 1 proposed cut (8021)",
       "sources": [
         "lot12h-1107-margins.json",
         "continuous-work-state.md"
       ],
       "tasks": [
         [
-          "Danh sách thay đổi giá: 53 giá đã áp theo quyết định chị Kim",
+          "Danh sách thay đổi giá: 60 giá đã áp theo quyết định chị Kim",
           1,
           "",
-          "<b>53 mã</b> đã được áp giá mới theo đúng quyết định của chị Kim (danh sách thay đổi giá, sheet A).",
+          "<b>60 mã</b> đã được áp giá mới theo đúng quyết định của chị Kim (danh sách thay đổi giá, sheet A).",
           0
         ],
         [
