@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 12:09 +07",
+  "generated_at": "2026-11-09 12:39 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -61,16 +61,18 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 216,
+        "shared_posts": 217,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 41,
-        "published_but_unshared": 0,
-        "published_but_unshared_ids": [],
-        "pending": 0,
-        "done": 216,
-        "prog": 100
+        "shared_not_in_seen_snapshot": 42,
+        "published_but_unshared": 1,
+        "published_but_unshared_ids": [
+          "1288281056850201"
+        ],
+        "pending": 1,
+        "done": 217,
+        "prog": 73
       },
-      "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. No published post is waiting to be shared right now. ",
+      "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. Published-but-unshared right now: 1 (1288281056850201 @ 2026-11-09 12:30 +07) — share each once, never twice. ",
       "pending_ids": [
         "1460641582830210",
         "1460642192830149",
@@ -201,24 +203,24 @@
       ],
       "tasks": [
         [
-          "Đã thấy 297 bài, đã chia sẻ 216 bài (phạm vi từ 02/11)",
+          "Đã thấy 297 bài, đã chia sẻ 217 bài (phạm vi từ 02/11)",
           0,
-          "216/297",
-          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>216 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          "217/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>217 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
           0
         ],
         [
-          "0 bài đã đăng chưa chia sẻ",
-          1,
-          "",
-          "Toàn bộ bài đã đăng trên Page đều đã được chia sẻ — <b>không còn bài nào chưa chia sẻ</b>. Sổ đã thấy (297) và sổ đã chia sẻ (216) chụp ở thời điểm khác nhau nên có 122 mã chênh lệch, cần kiểm tra trực tiếp trước khi chia sẻ thêm.",
-          0
+          "1 bài đã đăng chưa chia sẻ",
+          0,
+          "1 bài",
+          "Các bài đã đăng nhưng chưa chia sẻ sang trang cá nhân: 1288281056850201 — chia sẻ mỗi bài đúng 1 lần, không chia sẻ trùng.",
+          1
         ],
         [
-          "41 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          "42 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
           0,
           "Ngoài danh sách",
-          "Có <b>41 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          "Có <b>42 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
           0
         ]
       ]
@@ -429,11 +431,11 @@
       "numbers": {
         "drive_total_items": 1561,
         "drive_new_after_watermark": 0,
-        "drive_last_scan": "drive-scan-1109-1115.json"
+        "drive_last_scan": "drive-scan-1109-1215.json"
       },
       "note": "Hourly recursive-listing watch; silent when nothing new.",
       "sources": [
-        "drive-scan-1109-1115.json"
+        "drive-scan-1109-1215.json"
       ]
     },
     "tiktok_reels": {
