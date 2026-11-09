@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 14:06 +07",
+  "generated_at": "2026-11-09 14:09 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -284,10 +284,10 @@
       "numbers": {
         "web_products_live_dump": 1995,
         "web_products_live_dump_file": "wp-products-2026-11-09-seo.json",
-        "seo_latest_lot": "seo-audit-lot12-2026-11-08.md",
-        "seo_latest_lot_date": "2026-11-08",
-        "seo_latest_lot_above_80": "Above 80: 2/20",
-        "seo_next_lot_starts_web_id": 7753,
+        "seo_latest_lot": "seo-audit-lot13-2026-11-09.md",
+        "seo_latest_lot_date": "2026-11-09",
+        "seo_latest_lot_above_80": "Above 80: 7/20",
+        "seo_next_lot_starts_web_id": 7732,
         "image_fix_latest_lot": "image-fix-lot-2026-11-08.md",
         "image_fix_latest_fixable": 10,
         "image_fix_latest_not_fixable": 0,
@@ -305,12 +305,12 @@
           "batch7_shortlisted": 38
         },
         "pending": 164,
-        "done": 2,
-        "prog": 10
+        "done": 7,
+        "prog": 35
       },
-      "note": "SEO audit lot seo-audit-lot12-2026-11-08.md (2026-11-08, web IDs 7773 → 7754): 2/20 above Rank Math 80. Next lot starts at web ID 7753. Image-fix lot 2026-11-08 APPLIED 2026-11-08 ~17:0x via wp-admin (10/10 fixable, live-verified on public pages); next image-fix lot starts at 7188. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
+      "note": "SEO audit lot seo-audit-lot13-2026-11-09.md (2026-11-09, web IDs 7753 → 7733): 7/20 above Rank Math 80. Next lot starts at web ID 7732. Image-fix lot 2026-11-08 APPLIED 2026-11-08 ~17:0x via wp-admin (10/10 fixable, live-verified on public pages); next image-fix lot starts at 7188. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
       "sources": [
-        "seo-audit-lot12-2026-11-08.md",
+        "seo-audit-lot13-2026-11-09.md",
         "image-fix-lot-2026-11-08.md",
         "new-batch2-shortlist-1103.json",
         "new-batch3-verify-1106.json",
@@ -330,10 +330,10 @@
           0
         ],
         [
-          "SEO lô 12 ngày 08/11: 2/20 bài trên 80 điểm; lô tiếp theo bắt đầu từ 7753",
+          "SEO lô 13 ngày 09/11: 7/20 bài trên 80 điểm; lô tiếp theo bắt đầu từ 7732",
           0,
-          "2/20",
-          "Lô SEO số 12 ngày 08/11 (web 7773 → 7754): <b>2 trên 20 bài</b> đạt trên 80 điểm Rank Math (7771: 85, 7754: 84). 16 bài còn lại ở 4–10 điểm, chưa có từ khóa trọng tâm — cần viết lại nội dung + phản biện ChatGPT.",
+          "7/20",
+          "Lô SEO số 13 ngày 09/11 (web 7753 → 7733): <b>7 trên 20 bài</b> đạt trên 80 điểm Rank Math (7751: 84, 7747: 88, 7741: 85, 7738: 86, 7737: 88, 7734: 85). 13 bài còn lại ở 4–10 điểm, chưa có từ khóa trọng tâm — cần viết lại nội dung + phản biện ChatGPT.",
           0
         ],
         [
@@ -507,7 +507,7 @@
       "title": "Lô SEO + sửa ảnh ngày 09/11",
       "status": "doing",
       "status_label": "Chưa đủ lô hôm nay",
-      "detail": "Lô SEO mới nhất: lot 12 ngày 2026-11-08 (2/20 trên 80) · sửa ảnh mới nhất 2026-11-08 (10/10)."
+      "detail": "Lô SEO mới nhất: lot 13 ngày 2026-11-09 (7/20 trên 80) · sửa ảnh mới nhất 2026-11-08 (10/10)."
     },
     {
       "time": "17:00",
