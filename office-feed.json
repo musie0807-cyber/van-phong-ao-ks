@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 09:48 +07",
+  "generated_at": "2026-11-09 10:09 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -61,13 +61,13 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 212,
+        "shared_posts": 213,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 37,
+        "shared_not_in_seen_snapshot": 38,
         "published_but_unshared": 0,
         "published_but_unshared_ids": [],
         "pending": 0,
-        "done": 212,
+        "done": 213,
         "prog": 100
       },
       "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. No published post is waiting to be shared right now. ",
@@ -201,24 +201,24 @@
       ],
       "tasks": [
         [
-          "Đã thấy 297 bài, đã chia sẻ 212 bài (phạm vi từ 02/11)",
+          "Đã thấy 297 bài, đã chia sẻ 213 bài (phạm vi từ 02/11)",
           0,
-          "212/297",
-          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>212 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          "213/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>213 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
           0
         ],
         [
           "0 bài đã đăng chưa chia sẻ",
           1,
           "",
-          "Toàn bộ bài đã đăng trên Page đều đã được chia sẻ — <b>không còn bài nào chưa chia sẻ</b>. Sổ đã thấy (297) và sổ đã chia sẻ (212) chụp ở thời điểm khác nhau nên có 122 mã chênh lệch, cần kiểm tra trực tiếp trước khi chia sẻ thêm.",
+          "Toàn bộ bài đã đăng trên Page đều đã được chia sẻ — <b>không còn bài nào chưa chia sẻ</b>. Sổ đã thấy (297) và sổ đã chia sẻ (213) chụp ở thời điểm khác nhau nên có 122 mã chênh lệch, cần kiểm tra trực tiếp trước khi chia sẻ thêm.",
           0
         ],
         [
-          "37 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          "38 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
           0,
           "Ngoài danh sách",
-          "Có <b>37 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          "Có <b>38 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
           0
         ]
       ]
