@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 19:36 +07",
+  "generated_at": "2026-11-09 19:53 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -229,19 +229,19 @@
       "title": "Kiểm tra lỗi Shop (quét HCK)",
       "live": true,
       "numbers": {
-        "hck_posts_new_latest_run": 7,
-        "hck_posts_latest_run_date": "2026-11-08",
+        "hck_posts_new_latest_run": 5,
+        "hck_posts_latest_run_date": "2026-11-09",
         "hck_posts_latest_group_msg": 859,
         "hck_videos_new_latest_run": 12,
         "hck_videos_latest_run_date": "2026-11-07",
-        "hck_videos_latest_group_msg": 850,
+        "hck_videos_latest_group_msg": 928,
         "hck_posts_baseline_urls": 55,
         "hck_videos_baseline_urls": 85,
         "pending": 0,
-        "done": 7,
+        "done": 5,
         "prog": null
       },
-      "note": "Latest completed runs: 7 posts verified for 2026-11-08 (group msg 859) + 12 videos verified for 2026-11-07 (msg 850). The 7 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
+      "note": "Latest completed runs: 5 posts verified for 2026-11-09 (group msg 859) + 12 videos verified for 2026-11-07 (msg 928). The 5 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
       "sources": [
         "hck-scan-log.md",
         "hck-videos-baseline.json",
@@ -249,24 +249,24 @@
       ],
       "tasks": [
         [
-          "HCK bài đăng ngày 2026-11-08: 7 bài mới đã xác minh",
+          "HCK bài đăng ngày 2026-11-09: 5 bài mới đã xác minh",
           0,
-          "2026-11-08",
-          "Đợt quét bài đăng HCK mới nhất ghi nhận <b>7 bài đăng đã xác minh (verified) cho ngày 2026-11-08</b>; kết quả đã báo vào nhóm Telegram (tin 859).",
+          "2026-11-09",
+          "Đợt quét bài đăng HCK mới nhất ghi nhận <b>5 bài đăng đã xác minh (verified) cho ngày 2026-11-09</b>; kết quả đã báo vào nhóm Telegram (tin 859).",
           0
         ],
         [
           "HCK video ngày 2026-11-07: 12 video mới đã xác minh",
           0,
           "2026-11-07",
-          "Đợt quét video HCK mới nhất ghi nhận <b>12 video đã xác minh (verified) cho ngày 2026-11-07</b>; kết quả đã báo vào nhóm Telegram (tin 850). Đợt quét video ngày 09/11 chạy lúc 20:41.",
+          "Đợt quét video HCK mới nhất ghi nhận <b>12 video đã xác minh (verified) cho ngày 2026-11-07</b>; kết quả đã báo vào nhóm Telegram (tin 928). Đợt quét video ngày 09/11 chạy lúc 20:41.",
           0
         ],
         [
-          "Đã báo nhóm — tin 859 (bài 2026-11-08) và 850 (video 2026-11-07)",
+          "Đã báo nhóm — tin 859 (bài 2026-11-09) và 928 (video 2026-11-07)",
           1,
           "",
-          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 859</b> cho 7 bài đăng ngày 2026-11-08, <b>tin 850</b> cho 12 video ngày 2026-11-07.",
+          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 859</b> cho 5 bài đăng ngày 2026-11-09, <b>tin 928</b> cho 12 video ngày 2026-11-07.",
           0
         ],
         [
@@ -461,7 +461,7 @@
           "Video HCK mới ngày 2026-11-07: 12 video",
           0,
           "2026-11-07",
-          "Đợt quét HCK ngày 2026-11-07 ghi nhận <b>12 video mới</b>; kết quả đã báo vào nhóm (tin 850, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 09/11 chạy lúc 20:41.",
+          "Đợt quét HCK ngày 2026-11-07 ghi nhận <b>12 video mới</b>; kết quả đã báo vào nhóm (tin 928, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 09/11 chạy lúc 20:41.",
           0
         ],
         [
@@ -527,9 +527,9 @@
     {
       "time": "19:00",
       "title": "Báo cáo quét HCK ngày 09/11",
-      "status": "doing",
-      "status_label": "Chưa quét hôm nay",
-      "detail": "Đợt quét mới nhất: 7 bài ngày 2026-11-08 (tin 859) · video chạy lúc 20:41."
+      "status": "done",
+      "status_label": "Đã báo nhóm",
+      "detail": "5 bài mới, đã báo nhóm (tin 859) · video chạy lúc 20:41"
     }
   ],
   "deadlines_date": "09/11"
