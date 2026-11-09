@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 09:41 +07",
+  "generated_at": "2026-11-09 09:48 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -399,20 +399,16 @@
         "1107_decisions_open": 0,
         "1107_decisions_open_list": [],
         "1108_decisions_total": 3,
-        "1108_decisions_answered": 2,
-        "1108_decisions_open": 1,
-        "1108_decisions_open_list": [
-          "Meta App Review Submit"
-        ],
+        "1108_decisions_answered": 3,
+        "1108_decisions_open": 0,
+        "1108_decisions_open_list": [],
         "1108_scheduled": 33,
-        "pending": 1,
+        "pending": 0,
         "done": 9,
-        "prog": 90,
-        "1108_decisions_open_short": [
-          "App Review"
-        ]
+        "prog": 100,
+        "1108_decisions_open_short": []
       },
-      "note": "All 9 decisions for 11/07 answered by anh (1, 2, 3 on 2026-11-05; 4-9 blanket-approved 2026-11-06 02:29). OPEN 2026-11-08 (1): Meta App Review for KS PAGE POSTER 2 still needs anh's Submit tap. ANSWERED: 11-09 Allow sitting approved 22:44 08/11, sitting ran 22:45-22:53 (22 slots + 09:00 TS05 at 23:03 = 23/33); HCK carousel v5 DROPPED by anh 00:03 09/11 (\"bỏ carousel\", no posting, no v6). Chị KS's B/C/D decisions (batch-6, FR06, DT2022, Stylies Phoenix, U13AQ) still pending her reply. 11-08: 33 of 33 slots scheduled (log, each with a post ID) and published through the day.",
+      "note": "All 9 decisions for 11/07 answered by anh (1, 2, 3 on 2026-11-05; 4-9 blanket-approved 2026-11-06 02:29). OPEN 2026-11-08 (0): all 11-08 decisions answered. ANSWERED: Meta App Review SUBMITTED by anh 09:48 09/11 (status Đang xét duyệt, up to 20 days; 3 permissions: pages_manage_posts, pages_show_list, pages_read_engagement). ANSWERED: 11-09 Allow sitting approved 22:44 08/11, sitting ran 22:45-22:53 (22 slots + 09:00 TS05 at 23:03 = 23/33); HCK carousel v5 DROPPED by anh 00:03 09/11 (\"bỏ carousel\", no posting, no v6). Chị KS's B/C/D decisions (batch-6, FR06, DT2022, Stylies Phoenix, U13AQ) still pending her reply. 11-08: 33 of 33 slots scheduled (log, each with a post ID) and published through the day.",
       "sources": [
         "facebook-schedule-manifest-2026-11-08.md",
         "facebook-schedule-manifest-2026-11-09.md"
@@ -424,13 +420,6 @@
           "",
           "Đã trả lời <b>đủ 9 trong 9</b> quyết định cho lịch đăng ngày 07/11 (quyết định 1, 2, 3 ngày 05/11; quyết định 4–9 được duyệt gộp ngày 06/11).",
           0
-        ],
-        [
-          "Meta App Review (KS PAGE POSTER 2): vẫn cần anh bấm Submit",
-          0,
-          "Chờ anh",
-          "Hồ sơ App Review cho ứng dụng <b>KS PAGE POSTER 2</b> đã sẵn sàng gửi Meta; vẫn cần <b>anh bấm Submit</b> — việc này Thủy Tiên không tự bấm thay được.",
-          1
         ]
       ]
     },
