@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 08:37 +07",
+  "generated_at": "2026-11-09 09:10 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -48,11 +48,11 @@
           0
         ],
         [
-          "10/11: 32 khung sẵn sàng, buổi bấm đang chờ anh",
-          0,
-          "32/33",
-          "Ngày 10/11: 32 khung đủ sàn (25 READY + 9 SHORT) nên buổi bấm còn <b>32 khung</b>. Buổi bấm đang chờ anh duyệt.",
-          1
+          "10/11: đã lên lịch 33/33 khung",
+          1,
+          "33/33",
+          "Ngày 10/11 đã lên lịch đủ 33/33 khung.",
+          0
         ]
       ]
     },
@@ -61,13 +61,13 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 210,
+        "shared_posts": 211,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 35,
+        "shared_not_in_seen_snapshot": 36,
         "published_but_unshared": 0,
         "published_but_unshared_ids": [],
         "pending": 0,
-        "done": 210,
+        "done": 211,
         "prog": 100
       },
       "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. No published post is waiting to be shared right now. ",
@@ -201,24 +201,24 @@
       ],
       "tasks": [
         [
-          "Đã thấy 297 bài, đã chia sẻ 210 bài (phạm vi từ 02/11)",
+          "Đã thấy 297 bài, đã chia sẻ 211 bài (phạm vi từ 02/11)",
           0,
-          "210/297",
-          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>210 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          "211/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>211 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
           0
         ],
         [
           "0 bài đã đăng chưa chia sẻ",
           1,
           "",
-          "Toàn bộ bài đã đăng trên Page đều đã được chia sẻ — <b>không còn bài nào chưa chia sẻ</b>. Sổ đã thấy (297) và sổ đã chia sẻ (210) chụp ở thời điểm khác nhau nên có 122 mã chênh lệch, cần kiểm tra trực tiếp trước khi chia sẻ thêm.",
+          "Toàn bộ bài đã đăng trên Page đều đã được chia sẻ — <b>không còn bài nào chưa chia sẻ</b>. Sổ đã thấy (297) và sổ đã chia sẻ (211) chụp ở thời điểm khác nhau nên có 122 mã chênh lệch, cần kiểm tra trực tiếp trước khi chia sẻ thêm.",
           0
         ],
         [
-          "35 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          "36 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
           0,
           "Ngoài danh sách",
-          "Có <b>35 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          "Có <b>36 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
           0
         ]
       ]
@@ -507,9 +507,9 @@
     {
       "time": "06:00",
       "title": "Lên lịch bài Page ngày 10/11",
-      "status": "doing",
-      "status_label": "32/33 khung sẵn sàng",
-      "detail": "32 khung đủ sàn (25 READY + 9 SHORT) nên buổi bấm còn 32 khung, đang chờ anh duyệt buổi bấm"
+      "status": "done",
+      "status_label": "33/33 đã lên lịch",
+      "detail": "Ngày 10/11 đã lên lịch đủ 33/33 khung."
     },
     {
       "time": "12:00",
