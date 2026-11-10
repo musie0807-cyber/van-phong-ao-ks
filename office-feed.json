@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10 11:09 +07",
+  "generated_at": "2026-11-10 11:40 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -68,16 +68,16 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 242,
+        "shared_posts": 243,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 67,
+        "shared_not_in_seen_snapshot": 68,
         "published_but_unshared": 1,
         "published_but_unshared_ids": [
           "1288281056850201"
         ],
         "pending": 1,
-        "done": 242,
-        "prog": 81
+        "done": 243,
+        "prog": 82
       },
       "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. Published-but-unshared right now: 1 (1288281056850201 @ 2026-11-09 12:30 +07) — share each once, never twice. ",
       "pending_ids": [
@@ -210,10 +210,10 @@
       ],
       "tasks": [
         [
-          "Đã thấy 297 bài, đã chia sẻ 242 bài (phạm vi từ 02/11)",
+          "Đã thấy 297 bài, đã chia sẻ 243 bài (phạm vi từ 02/11)",
           0,
-          "242/297",
-          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>242 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          "243/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>243 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
           0
         ],
         [
@@ -224,10 +224,10 @@
           1
         ],
         [
-          "67 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          "68 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
           0,
           "Ngoài danh sách",
-          "Có <b>67 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          "Có <b>68 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
           0
         ]
       ]
@@ -438,11 +438,11 @@
       "numbers": {
         "drive_total_items": 1561,
         "drive_new_after_watermark": 0,
-        "drive_last_scan": "drive-scan-1110-1015.json"
+        "drive_last_scan": "drive-scan-1110-1115.json"
       },
       "note": "Hourly recursive-listing watch; silent when nothing new.",
       "sources": [
-        "drive-scan-1110-1015.json"
+        "drive-scan-1110-1115.json"
       ]
     },
     "tiktok_reels": {
