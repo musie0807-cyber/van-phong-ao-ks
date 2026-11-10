@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10 23:36 +07",
+  "generated_at": "2026-11-11 00:07 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -34,32 +34,25 @@
       ],
       "tasks": [
         [
-          "10/11: đã lên lịch 33/33 khung",
+          "11/11: đã lên lịch 33/33 khung",
           1,
           "33/33",
-          "Ngày 10/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>đủ 33 khung</b>; các bài đăng dần trong ngày và được chia sẻ sang trang cá nhân.",
+          "Ngày 11/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>đủ 33 khung</b>; các bài đăng dần trong ngày và được chia sẻ sang trang cá nhân.",
           0
         ],
         [
-          "10/11 — sẵn sàng ảnh: READY 17 · SHORT 16 · HELD 0",
+          "11/11 — sẵn sàng ảnh: READY 17 · SHORT 16 · HELD 0",
           1,
           "0 HELD",
-          "Mức sẵn sàng ảnh của manifest 10/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
+          "Mức sẵn sàng ảnh của manifest 11/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
           0
         ],
         [
-          "11/11: 33 khung sẵn sàng, buổi bấm đang chờ anh",
+          "12/11: 32 khung sẵn sàng, buổi bấm đang chờ anh",
           0,
-          "33/33",
-          "Ngày 11/11: 33 khung đủ sàn (30 READY + 1 SHORT) nên buổi bấm còn <b>33 khung</b>. Buổi bấm đang chờ anh duyệt.",
+          "32/33",
+          "Ngày 12/11: 32 khung đủ sàn (26 READY + 0 SHORT) nên buổi bấm còn <b>32 khung</b>. Buổi bấm đang chờ anh duyệt.",
           1
-        ],
-        [
-          "Cả 33 bài 10/11 chỉ inbox — 0 bài đủ điều kiện ghi giá",
-          1,
-          "",
-          "Toàn bộ <b>33 bài</b> ngày 10/11 là <b>inbox-only</b>: <b>0 bài đủ điều kiện ghi giá</b> nên không ghi giá trong nội dung; khách quan tâm nhắn inbox để được báo giá.",
-          0
         ]
       ]
     },
@@ -266,7 +259,7 @@
           "HCK video ngày 2026-11-10: 4 video mới đã xác minh",
           0,
           "2026-11-10",
-          "Đợt quét video HCK mới nhất ghi nhận <b>4 video đã xác minh (verified) cho ngày 2026-11-10</b>; kết quả đã báo vào nhóm Telegram (tin 929). Đợt quét video ngày 10/11 chạy lúc 20:41.",
+          "Đợt quét video HCK mới nhất ghi nhận <b>4 video đã xác minh (verified) cho ngày 2026-11-10</b>; kết quả đã báo vào nhóm Telegram (tin 929). Đợt quét video ngày 11/11 chạy lúc 20:41.",
           0
         ],
         [
@@ -333,7 +326,7 @@
           "Web KS hiện có 2.017 sản phẩm",
           0,
           "Số thật",
-          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.017 sản phẩm</b> (số chụp ngày 10/11).",
+          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.017 sản phẩm</b> (số chụp ngày 11/11).",
           0
         ],
         [
@@ -460,7 +453,7 @@
           "Video HCK mới ngày 2026-11-10: 4 video",
           0,
           "2026-11-10",
-          "Đợt quét HCK ngày 2026-11-10 ghi nhận <b>4 video mới</b>; kết quả đã báo vào nhóm (tin 929, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 10/11 chạy lúc 20:41.",
+          "Đợt quét HCK ngày 2026-11-10 ghi nhận <b>4 video mới</b>; kết quả đã báo vào nhóm (tin 929, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 11/11 chạy lúc 20:41.",
           0
         ],
         [
@@ -504,14 +497,14 @@
   "deadlines": [
     {
       "time": "06:00",
-      "title": "Lên lịch bài Page ngày 11/11",
+      "title": "Lên lịch bài Page ngày 12/11",
       "status": "doing",
-      "status_label": "33/33 khung sẵn sàng",
-      "detail": "33 khung đủ sàn (30 READY + 1 SHORT) nên buổi bấm còn 33 khung, đang chờ anh duyệt buổi bấm"
+      "status_label": "32/33 khung sẵn sàng",
+      "detail": "32 khung đủ sàn (26 READY + 0 SHORT) nên buổi bấm còn 32 khung, đang chờ anh duyệt buổi bấm"
     },
     {
       "time": "12:00",
-      "title": "Lô SEO + sửa ảnh ngày 10/11",
+      "title": "Lô SEO + sửa ảnh ngày 11/11",
       "status": "doing",
       "status_label": "Chưa đủ lô hôm nay",
       "detail": "Lô SEO mới nhất: lot 14 ngày 2026-11-10 (3/20 trên 80) · sửa ảnh mới nhất 2026-11-09 (6/6)."
@@ -525,11 +518,11 @@
     },
     {
       "time": "19:00",
-      "title": "Báo cáo quét HCK ngày 10/11",
+      "title": "Báo cáo quét HCK ngày 11/11",
       "status": "doing",
       "status_label": "Chưa quét hôm nay",
       "detail": "Đợt quét mới nhất: 5 bài ngày 2026-11-09 (tin 1020) · video chạy lúc 20:41."
     }
   ],
-  "deadlines_date": "10/11"
+  "deadlines_date": "11/11"
 }
