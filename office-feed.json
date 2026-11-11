@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11 13:38 +07",
+  "generated_at": "2026-11-11 13:53 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -282,10 +282,10 @@
       "title": "Web / SEO",
       "live": true,
       "numbers": {
-        "web_products_live_dump": 2017,
-        "web_products_live_dump_file": "wp-products-2026-11-10-seo.json",
-        "seo_latest_lot": "seo-audit-lot14-2026-11-10.md",
-        "seo_latest_lot_date": "2026-11-10",
+        "web_products_live_dump": 2020,
+        "web_products_live_dump_file": "wp-products-2026-11-11-seo.json",
+        "seo_latest_lot": "seo-audit-lot15-2026-11-11.md",
+        "seo_latest_lot_date": "2026-11-11",
         "seo_latest_lot_above_80": "Above 80: 3/20",
         "seo_next_lot_starts_web_id": 7525,
         "image_fix_latest_lot": "image-fix-lot-2026-11-09.md",
@@ -308,9 +308,9 @@
         "done": 3,
         "prog": 15
       },
-      "note": "SEO audit lot seo-audit-lot14-2026-11-10.md (2026-11-10, web IDs 7732 → 7526): 3/20 above Rank Math 80. Next lot starts at web ID 7525. Image-fix lot 2026-11-09 APPLIED 2026-11-09 ~17:5x via wp-admin (6/6 fixable, live-verified on public pages; 1 held: 7188, pending approver source exception); next image-fix lot starts at 7029. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
+      "note": "SEO audit lot seo-audit-lot15-2026-11-11.md (2026-11-11, web IDs 7525 → 7505): 3/20 above Rank Math 80. Next lot starts at web ID 7525. Image-fix lot 2026-11-09 APPLIED 2026-11-09 ~17:5x via wp-admin (6/6 fixable, live-verified on public pages; 1 held: 7188, pending approver source exception); next image-fix lot starts at 7029. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
       "sources": [
-        "seo-audit-lot14-2026-11-10.md",
+        "seo-audit-lot15-2026-11-11.md",
         "image-fix-lot-2026-11-09.md",
         "new-batch2-shortlist-1103.json",
         "new-batch3-verify-1106.json",
@@ -319,21 +319,21 @@
         "new-batch5-shortlist-1106.json",
         "new-batch6-shortlist-1107.json",
         "new-batch7-shortlist-1108.json",
-        "wp-products-2026-11-10-seo.json"
+        "wp-products-2026-11-11-seo.json"
       ],
       "tasks": [
         [
-          "Web KS hiện có 2.017 sản phẩm",
+          "Web KS hiện có 2.020 sản phẩm",
           0,
           "Số thật",
-          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.017 sản phẩm</b> (số chụp ngày 11/11).",
+          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.020 sản phẩm</b> (số chụp ngày 11/11).",
           0
         ],
         [
-          "SEO lô 14 ngày 10/11: 3/20 bài trên 80 điểm; lô tiếp theo bắt đầu từ 7525",
+          "SEO lô 15 ngày 11/11: 3/20 bài trên 80 điểm; lô tiếp theo bắt đầu từ 7525",
           0,
           "3/20",
-          "Lô SEO số 14 ngày 10/11 (web 7732 → 7526): <b>3 trên 20 bài</b> đạt trên 80 điểm Rank Math (7728: 86, 7563: 88, 7534: 82). 16 bài còn lại ở 2–11 điểm, chưa có từ khóa trọng tâm — cần viết lại nội dung + phản biện ChatGPT.",
+          "Lô SEO số 15 ngày 11/11 (web 7525 → 7505): <b>3 trên 20 bài</b> đạt trên 80 điểm Rank Math (7522: 87, 7511: 88, 7506: 87). 17 bài còn lại ở 3–7 điểm, chưa có từ khóa trọng tâm — cần viết lại nội dung + phản biện ChatGPT.",
           0
         ],
         [
@@ -507,7 +507,7 @@
       "title": "Lô SEO + sửa ảnh ngày 11/11",
       "status": "doing",
       "status_label": "Chưa đủ lô hôm nay",
-      "detail": "Lô SEO mới nhất: lot 14 ngày 2026-11-10 (3/20 trên 80) · sửa ảnh mới nhất 2026-11-09 (6/6)."
+      "detail": "Lô SEO mới nhất: lot 15 ngày 2026-11-11 (3/20 trên 80) · sửa ảnh mới nhất 2026-11-09 (6/6)."
     },
     {
       "time": "17:00",
