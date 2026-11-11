@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11 23:37 +07",
+  "generated_at": "2026-11-12 00:07 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -34,24 +34,24 @@
       ],
       "tasks": [
         [
-          "11/11: đã lên lịch 33/33 khung",
+          "12/11: đã lên lịch 33/33 khung",
           1,
           "33/33",
-          "Ngày 11/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>đủ 33 khung</b>; các bài đăng dần trong ngày và được chia sẻ sang trang cá nhân.",
+          "Ngày 12/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>đủ 33 khung</b>; các bài đăng dần trong ngày và được chia sẻ sang trang cá nhân.",
           0
         ],
         [
-          "11/11 — sẵn sàng ảnh: READY 17 · SHORT 16 · HELD 0",
+          "12/11 — sẵn sàng ảnh: READY 17 · SHORT 16 · HELD 0",
           1,
           "0 HELD",
-          "Mức sẵn sàng ảnh của manifest 11/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
+          "Mức sẵn sàng ảnh của manifest 12/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
           0
         ],
         [
-          "12/11: 32 khung sẵn sàng, buổi bấm đang chờ anh",
+          "13/11: None khung sẵn sàng, buổi bấm đang chờ anh",
           0,
-          "32/33",
-          "Ngày 12/11: 32 khung đủ sàn (26 READY + 0 SHORT) nên buổi bấm còn <b>32 khung</b>. Buổi bấm đang chờ anh duyệt.",
+          "None/33",
+          "Ngày 13/11: None khung đủ sàn (15 READY + 0 SHORT) nên buổi bấm còn <b>None khung</b>. Buổi bấm đang chờ anh duyệt.",
           1
         ]
       ]
@@ -259,7 +259,7 @@
           "HCK video ngày 2026-11-11: 4 video mới đã xác minh",
           0,
           "2026-11-11",
-          "Đợt quét video HCK mới nhất ghi nhận <b>4 video đã xác minh (verified) cho ngày 2026-11-11</b>; kết quả đã báo vào nhóm Telegram (tin 929). Đợt quét video ngày 11/11 chạy lúc 20:41.",
+          "Đợt quét video HCK mới nhất ghi nhận <b>4 video đã xác minh (verified) cho ngày 2026-11-11</b>; kết quả đã báo vào nhóm Telegram (tin 929). Đợt quét video ngày 12/11 chạy lúc 20:41.",
           0
         ],
         [
@@ -326,7 +326,7 @@
           "Web KS hiện có 2.020 sản phẩm",
           0,
           "Số thật",
-          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.020 sản phẩm</b> (số chụp ngày 11/11).",
+          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.020 sản phẩm</b> (số chụp ngày 12/11).",
           0
         ],
         [
@@ -453,7 +453,7 @@
           "Video HCK mới ngày 2026-11-11: 4 video",
           0,
           "2026-11-11",
-          "Đợt quét HCK ngày 2026-11-11 ghi nhận <b>4 video mới</b>; kết quả đã báo vào nhóm (tin 929, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 11/11 chạy lúc 20:41.",
+          "Đợt quét HCK ngày 2026-11-11 ghi nhận <b>4 video mới</b>; kết quả đã báo vào nhóm (tin 929, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 12/11 chạy lúc 20:41.",
           0
         ],
         [
@@ -497,14 +497,14 @@
   "deadlines": [
     {
       "time": "06:00",
-      "title": "Lên lịch bài Page ngày 12/11",
+      "title": "Lên lịch bài Page ngày 13/11",
       "status": "doing",
-      "status_label": "32/33 khung sẵn sàng",
-      "detail": "32 khung đủ sàn (26 READY + 0 SHORT) nên buổi bấm còn 32 khung, đang chờ anh duyệt buổi bấm"
+      "status_label": "None/33 khung sẵn sàng",
+      "detail": "None khung đủ sàn (15 READY + 0 SHORT) nên buổi bấm còn None khung, đang chờ anh duyệt buổi bấm"
     },
     {
       "time": "12:00",
-      "title": "Lô SEO + sửa ảnh ngày 11/11",
+      "title": "Lô SEO + sửa ảnh ngày 12/11",
       "status": "doing",
       "status_label": "Chưa đủ lô hôm nay",
       "detail": "Lô SEO mới nhất: lot 15 ngày 2026-11-11 (3/20 trên 80) · sửa ảnh mới nhất 2026-11-10 (None/None)."
@@ -518,11 +518,11 @@
     },
     {
       "time": "19:00",
-      "title": "Báo cáo quét HCK ngày 11/11",
-      "status": "done",
-      "status_label": "Đã báo nhóm",
-      "detail": "2 bài mới, đã báo nhóm (tin 1020) · video chạy lúc 20:41"
+      "title": "Báo cáo quét HCK ngày 12/11",
+      "status": "doing",
+      "status_label": "Chưa quét hôm nay",
+      "detail": "Đợt quét mới nhất: 2 bài ngày 2026-11-11 (tin 1020) · video chạy lúc 20:41."
     }
   ],
-  "deadlines_date": "11/11"
+  "deadlines_date": "12/11"
 }
