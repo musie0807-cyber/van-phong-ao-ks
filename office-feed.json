@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 20:38 +07",
+  "generated_at": "2026-11-12 20:53 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -236,7 +236,7 @@
         "hck_videos_latest_run_date": "2026-11-11",
         "hck_videos_latest_group_msg": 929,
         "hck_posts_baseline_urls": 71,
-        "hck_videos_baseline_urls": 95,
+        "hck_videos_baseline_urls": 97,
         "pending": 0,
         "done": 8,
         "prog": null
@@ -270,10 +270,10 @@
           0
         ],
         [
-          "Baseline HCK: 71 đường link bài + 95 đường link video",
+          "Baseline HCK: 71 đường link bài + 97 đường link video",
           0,
           "",
-          "Danh sách baseline để đối chiếu HCK gồm <b>71 đường link bài đăng</b> và <b>95 đường link video</b>.",
+          "Danh sách baseline để đối chiếu HCK gồm <b>71 đường link bài đăng</b> và <b>97 đường link video</b>.",
           0
         ]
       ]
