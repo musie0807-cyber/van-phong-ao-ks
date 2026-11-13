@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13 16:38 +07",
+  "generated_at": "2026-11-13 17:01 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -288,7 +288,7 @@
         "seo_latest_lot_date": "2026-11-13",
         "seo_latest_lot_above_80": "Above 80: 3/20",
         "seo_next_lot_starts_web_id": 7460,
-        "image_fix_latest_lot": "image-fix-lot-2026-11-12.md",
+        "image_fix_latest_lot": "image-fix-lot-2026-11-13.md",
         "image_fix_latest_fixable": null,
         "image_fix_latest_not_fixable": null,
         "image_fix_next_lot_starts_web_id": null,
@@ -308,10 +308,10 @@
         "done": 3,
         "prog": 15
       },
-      "note": "SEO audit lot seo-audit-lot17-2026-11-13.md (2026-11-13, web IDs 7482 → 7461): 3/20 above Rank Math 80. Next lot starts at web ID 7460. Image-fix lot 2026-11-12 prepared (? fixable, ? not fixable: ?, no official image); next image-fix lot starts at None. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
+      "note": "SEO audit lot seo-audit-lot17-2026-11-13.md (2026-11-13, web IDs 7482 → 7461): 3/20 above Rank Math 80. Next lot starts at web ID 7460. Image-fix lot 2026-11-13 prepared (? fixable, ? not fixable: ?, no official image); next image-fix lot starts at None. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
       "sources": [
         "seo-audit-lot17-2026-11-13.md",
-        "image-fix-lot-2026-11-12.md",
+        "image-fix-lot-2026-11-13.md",
         "new-batch2-shortlist-1103.json",
         "new-batch3-verify-1106.json",
         "new-batch4-shortlist-1105.json",
@@ -337,10 +337,10 @@
           0
         ],
         [
-          "Lô sửa ảnh 2026-11-12: None/None mục đã chuẩn bị",
+          "Lô sửa ảnh 2026-11-13: None/None mục đã chuẩn bị",
           0,
           "",
-          "Lô sửa ảnh <b>2026-11-12</b> đã chuẩn bị (None/None mục). Lô tiếp theo bắt đầu từ <b>web id None</b>.",
+          "Lô sửa ảnh <b>2026-11-13</b> đã chuẩn bị (None/None mục). Lô tiếp theo bắt đầu từ <b>web id None</b>.",
           0
         ],
         [
@@ -505,9 +505,9 @@
     {
       "time": "12:00",
       "title": "Lô SEO + sửa ảnh ngày 13/11",
-      "status": "doing",
-      "status_label": "Chưa đủ lô hôm nay",
-      "detail": "Lô SEO mới nhất: lot 17 ngày 2026-11-13 (3/20 trên 80) · sửa ảnh mới nhất 2026-11-12 (None/None)."
+      "status": "done",
+      "status_label": "Đã báo nhóm",
+      "detail": "SEO lot 17: 3/20 trên 80 · sửa ảnh None/None, đã báo nhóm"
     },
     {
       "time": "17:00",
