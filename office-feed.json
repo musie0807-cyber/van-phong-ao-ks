@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13 19:37 +07",
+  "generated_at": "2026-11-13 19:54 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -229,8 +229,8 @@
       "title": "Kiểm tra lỗi Shop (quét HCK)",
       "live": true,
       "numbers": {
-        "hck_posts_new_latest_run": 8,
-        "hck_posts_latest_run_date": "2026-11-12",
+        "hck_posts_new_latest_run": 18,
+        "hck_posts_latest_run_date": "2026-11-13",
         "hck_posts_latest_group_msg": 1020,
         "hck_videos_new_latest_run": 4,
         "hck_videos_latest_run_date": "2026-11-11",
@@ -238,10 +238,10 @@
         "hck_posts_baseline_urls": 71,
         "hck_videos_baseline_urls": 97,
         "pending": 0,
-        "done": 8,
+        "done": 18,
         "prog": null
       },
-      "note": "Latest completed runs: 8 posts verified for 2026-11-12 (group msg 1020) + 4 videos verified for 2026-11-11 (msg 929). The 8 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
+      "note": "Latest completed runs: 18 posts verified for 2026-11-13 (group msg 1020) + 4 videos verified for 2026-11-11 (msg 929). The 18 post URLs were unrecovered, so they stay unbaselined until recovered. Counts are parsed from hck-scan-log.md + the baseline files.",
       "sources": [
         "hck-scan-log.md",
         "hck-videos-baseline.json",
@@ -249,10 +249,10 @@
       ],
       "tasks": [
         [
-          "HCK bài đăng ngày 2026-11-12: 8 bài mới đã xác minh",
+          "HCK bài đăng ngày 2026-11-13: 18 bài mới đã xác minh",
           0,
-          "2026-11-12",
-          "Đợt quét bài đăng HCK mới nhất ghi nhận <b>8 bài đăng đã xác minh (verified) cho ngày 2026-11-12</b>; kết quả đã báo vào nhóm Telegram (tin 1020).",
+          "2026-11-13",
+          "Đợt quét bài đăng HCK mới nhất ghi nhận <b>18 bài đăng đã xác minh (verified) cho ngày 2026-11-13</b>; kết quả đã báo vào nhóm Telegram (tin 1020).",
           0
         ],
         [
@@ -263,10 +263,10 @@
           0
         ],
         [
-          "Đã báo nhóm — tin 1020 (bài 2026-11-12) và 929 (video 2026-11-11)",
+          "Đã báo nhóm — tin 1020 (bài 2026-11-13) và 929 (video 2026-11-11)",
           1,
           "",
-          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 1020</b> cho 8 bài đăng ngày 2026-11-12, <b>tin 929</b> cho 4 video ngày 2026-11-11.",
+          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 1020</b> cho 18 bài đăng ngày 2026-11-13, <b>tin 929</b> cho 4 video ngày 2026-11-11.",
           0
         ],
         [
@@ -519,9 +519,9 @@
     {
       "time": "19:00",
       "title": "Báo cáo quét HCK ngày 13/11",
-      "status": "doing",
-      "status_label": "Chưa quét hôm nay",
-      "detail": "Đợt quét mới nhất: 8 bài ngày 2026-11-12 (tin 1020) · video chạy lúc 20:41."
+      "status": "done",
+      "status_label": "Đã báo nhóm",
+      "detail": "18 bài mới, đã báo nhóm (tin 1020) · video chạy lúc 20:41"
     }
   ],
   "deadlines_date": "13/11"
