@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15 19:54 +07",
+  "generated_at": "2026-11-15 20:10 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -61,16 +61,16 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 426,
+        "shared_posts": 427,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 251,
+        "shared_not_in_seen_snapshot": 252,
         "published_but_unshared": 1,
         "published_but_unshared_ids": [
           "1288281056850201"
         ],
         "pending": 1,
-        "done": 426,
-        "prog": 143
+        "done": 427,
+        "prog": 144
       },
       "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. Published-but-unshared right now: 1 (1288281056850201 @ 2026-11-09 12:30 +07) — share each once, never twice. ",
       "pending_ids": [
@@ -203,10 +203,10 @@
       ],
       "tasks": [
         [
-          "Đã thấy 297 bài, đã chia sẻ 426 bài (phạm vi từ 02/11)",
+          "Đã thấy 297 bài, đã chia sẻ 427 bài (phạm vi từ 02/11)",
           0,
-          "426/297",
-          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>426 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          "427/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>427 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
           0
         ],
         [
@@ -217,10 +217,10 @@
           1
         ],
         [
-          "251 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          "252 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
           0,
           "Ngoài danh sách",
-          "Có <b>251 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          "Có <b>252 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
           0
         ]
       ]
