@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16 12:39 +07",
+  "generated_at": "2026-11-16 13:53 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -282,8 +282,8 @@
       "title": "Web / SEO",
       "live": true,
       "numbers": {
-        "web_products_live_dump": 2058,
-        "web_products_live_dump_file": "wp-products-2026-11-15-seo.json",
+        "web_products_live_dump": 2065,
+        "web_products_live_dump_file": "wp-products-2026-11-16-seo.json",
         "seo_latest_lot": "seo-audit-lot19-2026-11-15.md",
         "seo_latest_lot_date": "2026-11-15",
         "seo_latest_lot_above_80": "Above 80: 11/20",
@@ -319,14 +319,14 @@
         "new-batch5-shortlist-1106.json",
         "new-batch6-shortlist-1107.json",
         "new-batch7-shortlist-1108.json",
-        "wp-products-2026-11-15-seo.json"
+        "wp-products-2026-11-16-seo.json"
       ],
       "tasks": [
         [
-          "Web KS hiện có 2.058 sản phẩm",
+          "Web KS hiện có 2.065 sản phẩm",
           0,
           "Số thật",
-          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.058 sản phẩm</b> (số chụp ngày 16/11).",
+          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.065 sản phẩm</b> (số chụp ngày 16/11).",
           0
         ],
         [
@@ -431,11 +431,11 @@
       "numbers": {
         "drive_total_items": 1631,
         "drive_new_after_watermark": 70,
-        "drive_last_scan": "drive-scan-1116-1215.json"
+        "drive_last_scan": "drive-scan-1116-1315.json"
       },
       "note": "Hourly recursive-listing watch; silent when nothing new.",
       "sources": [
-        "drive-scan-1116-1215.json"
+        "drive-scan-1116-1315.json"
       ]
     },
     "tiktok_reels": {
