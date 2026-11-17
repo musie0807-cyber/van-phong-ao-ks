@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17 23:37 +07",
+  "generated_at": "2026-11-18 00:07 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -34,24 +34,24 @@
       ],
       "tasks": [
         [
-          "17/11: đã lên lịch 33/33 khung",
+          "18/11: đã lên lịch 33/33 khung",
           1,
           "33/33",
-          "Ngày 17/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>đủ 33 khung</b>; các bài đăng dần trong ngày và được chia sẻ sang trang cá nhân.",
+          "Ngày 18/11 có <b>33 khung đăng từ 07:00 đến 23:00</b>. Đã lên lịch <b>đủ 33 khung</b>; các bài đăng dần trong ngày và được chia sẻ sang trang cá nhân.",
           0
         ],
         [
-          "17/11 — sẵn sàng ảnh: READY 17 · SHORT 16 · HELD 0",
+          "18/11 — sẵn sàng ảnh: READY 17 · SHORT 16 · HELD 0",
           1,
           "0 HELD",
-          "Mức sẵn sàng ảnh của manifest 17/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
+          "Mức sẵn sàng ảnh của manifest 18/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
           0
         ],
         [
-          "18/11: 24 khung sẵn sàng, buổi bấm đang chờ anh",
+          "19/11: 18 khung sẵn sàng, buổi bấm đang chờ anh",
           0,
-          "24/33",
-          "Ngày 18/11: 24 khung đủ sàn (15 READY + 9 SHORT) nên buổi bấm còn <b>24 khung</b>. Buổi bấm đang chờ anh duyệt.",
+          "18/33",
+          "Ngày 19/11: 18 khung đủ sàn (10 READY + 8 SHORT) nên buổi bấm còn <b>18 khung</b>. Buổi bấm đang chờ anh duyệt.",
           1
         ]
       ]
@@ -259,7 +259,7 @@
           "HCK video ngày 2026-11-16: 4 video mới đã xác minh",
           0,
           "2026-11-16",
-          "Đợt quét video HCK mới nhất ghi nhận <b>4 video đã xác minh (verified) cho ngày 2026-11-16</b>; kết quả đã báo vào nhóm Telegram (tin 1244). Đợt quét video ngày 17/11 chạy lúc 20:41.",
+          "Đợt quét video HCK mới nhất ghi nhận <b>4 video đã xác minh (verified) cho ngày 2026-11-16</b>; kết quả đã báo vào nhóm Telegram (tin 1244). Đợt quét video ngày 18/11 chạy lúc 20:41.",
           0
         ],
         [
@@ -326,7 +326,7 @@
           "Web KS hiện có 2.065 sản phẩm",
           0,
           "Số thật",
-          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.065 sản phẩm</b> (số chụp ngày 17/11).",
+          "Website <b>ksgiadungnhapkhau.com</b> hiện có <b>2.065 sản phẩm</b> (số chụp ngày 18/11).",
           0
         ],
         [
@@ -357,12 +357,8 @@
       "live": true,
       "numbers": {
         "price_change_list_applied_total": 65,
-        "price_change_list_closed_today": 3,
-        "price_change_list_closed_today_web_ids": [
-          7464,
-          7457,
-          7463
-        ],
+        "price_change_list_closed_today": 0,
+        "price_change_list_closed_today_web_ids": [],
         "lot12h_latest": "lot12h-1107-margins.json",
         "lot12h_latest_products": 20,
         "lot12h_latest_proposed_cuts": 1,
@@ -374,7 +370,7 @@
         "done": 65,
         "prog": 98
       },
-      "note": "Price-change list: 65 applied in total; 3 rows closed today (web IDs [7464, 7457, 7463]). Latest 12h lot (lot12h-1107-margins.json): 20 products (web IDs 7790 → 8083), 1 proposed cut (8021)",
+      "note": "Price-change list: 65 applied in total; 0 rows closed today (web IDs []). Latest 12h lot (lot12h-1107-margins.json): 20 products (web IDs 7790 → 8083), 1 proposed cut (8021)",
       "sources": [
         "lot12h-1107-margins.json",
         "continuous-work-state.md"
@@ -457,7 +453,7 @@
           "Video HCK mới ngày 2026-11-16: 4 video",
           0,
           "2026-11-16",
-          "Đợt quét HCK ngày 2026-11-16 ghi nhận <b>4 video mới</b>; kết quả đã báo vào nhóm (tin 1244, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 17/11 chạy lúc 20:41.",
+          "Đợt quét HCK ngày 2026-11-16 ghi nhận <b>4 video mới</b>; kết quả đã báo vào nhóm (tin 1244, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 18/11 chạy lúc 20:41.",
           0
         ],
         [
@@ -501,14 +497,14 @@
   "deadlines": [
     {
       "time": "06:00",
-      "title": "Lên lịch bài Page ngày 18/11",
+      "title": "Lên lịch bài Page ngày 19/11",
       "status": "doing",
-      "status_label": "24/33 khung sẵn sàng",
-      "detail": "24 khung đủ sàn (15 READY + 9 SHORT) nên buổi bấm còn 24 khung, đang chờ anh duyệt buổi bấm"
+      "status_label": "18/33 khung sẵn sàng",
+      "detail": "18 khung đủ sàn (10 READY + 8 SHORT) nên buổi bấm còn 18 khung, đang chờ anh duyệt buổi bấm"
     },
     {
       "time": "12:00",
-      "title": "Lô SEO + sửa ảnh ngày 17/11",
+      "title": "Lô SEO + sửa ảnh ngày 18/11",
       "status": "doing",
       "status_label": "Chưa đủ lô hôm nay",
       "detail": "Lô SEO mới nhất: lot 21 ngày 2026-11-17 (1/20 trên 80) · sửa ảnh mới nhất 2026-11-15 (None/None)."
@@ -522,11 +518,11 @@
     },
     {
       "time": "19:00",
-      "title": "Báo cáo quét HCK ngày 17/11",
-      "status": "done",
-      "status_label": "Đã báo nhóm",
-      "detail": "9 bài mới, đã báo nhóm (tin 1223) · video chạy lúc 20:41"
+      "title": "Báo cáo quét HCK ngày 18/11",
+      "status": "doing",
+      "status_label": "Chưa quét hôm nay",
+      "detail": "Đợt quét mới nhất: 9 bài ngày 2026-11-17 (tin 1223) · video chạy lúc 20:41."
     }
   ],
-  "deadlines_date": "17/11"
+  "deadlines_date": "18/11"
 }
