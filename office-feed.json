@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17 09:10 +07",
+  "generated_at": "2026-11-17 09:40 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -48,10 +48,10 @@
           0
         ],
         [
-          "18/11: 22 khung sẵn sàng, buổi bấm đang chờ anh",
+          "18/11: 24 khung sẵn sàng, buổi bấm đang chờ anh",
           0,
-          "22/33",
-          "Ngày 18/11: 22 khung đủ sàn (15 READY + 7 SHORT) nên buổi bấm còn <b>22 khung</b>. Buổi bấm đang chờ anh duyệt.",
+          "24/33",
+          "Ngày 18/11: 24 khung đủ sàn (15 READY + 9 SHORT) nên buổi bấm còn <b>24 khung</b>. Buổi bấm đang chờ anh duyệt.",
           1
         ]
       ]
@@ -61,15 +61,15 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 471,
+        "shared_posts": 472,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 296,
+        "shared_not_in_seen_snapshot": 297,
         "published_but_unshared": 1,
         "published_but_unshared_ids": [
           "1288281056850201"
         ],
         "pending": 1,
-        "done": 471,
+        "done": 472,
         "prog": 159
       },
       "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. Published-but-unshared right now: 1 (1288281056850201 @ 2026-11-09 12:30 +07) — share each once, never twice. ",
@@ -203,10 +203,10 @@
       ],
       "tasks": [
         [
-          "Đã thấy 297 bài, đã chia sẻ 471 bài (phạm vi từ 02/11)",
+          "Đã thấy 297 bài, đã chia sẻ 472 bài (phạm vi từ 02/11)",
           0,
-          "471/297",
-          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>471 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          "472/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>472 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
           0
         ],
         [
@@ -217,10 +217,10 @@
           1
         ],
         [
-          "296 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          "297 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
           0,
           "Ngoài danh sách",
-          "Có <b>296 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          "Có <b>297 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
           0
         ]
       ]
@@ -356,9 +356,13 @@
       "title": "Nghiên cứu giá",
       "live": true,
       "numbers": {
-        "price_change_list_applied_total": 62,
-        "price_change_list_closed_today": 0,
-        "price_change_list_closed_today_web_ids": [],
+        "price_change_list_applied_total": 65,
+        "price_change_list_closed_today": 3,
+        "price_change_list_closed_today_web_ids": [
+          7464,
+          7457,
+          7463
+        ],
         "lot12h_latest": "lot12h-1107-margins.json",
         "lot12h_latest_products": 20,
         "lot12h_latest_proposed_cuts": 1,
@@ -367,20 +371,20 @@
         ],
         "lot12h_latest_costs_unknown": 0,
         "pending": 1,
-        "done": 62,
+        "done": 65,
         "prog": 98
       },
-      "note": "Price-change list: 62 applied in total; 0 rows closed today (web IDs []). Latest 12h lot (lot12h-1107-margins.json): 20 products (web IDs 7790 → 8083), 1 proposed cut (8021)",
+      "note": "Price-change list: 65 applied in total; 3 rows closed today (web IDs [7464, 7457, 7463]). Latest 12h lot (lot12h-1107-margins.json): 20 products (web IDs 7790 → 8083), 1 proposed cut (8021)",
       "sources": [
         "lot12h-1107-margins.json",
         "continuous-work-state.md"
       ],
       "tasks": [
         [
-          "Danh sách thay đổi giá: 62 giá đã áp theo quyết định chị Kim",
+          "Danh sách thay đổi giá: 65 giá đã áp theo quyết định chị Kim",
           1,
           "",
-          "<b>62 mã</b> đã được áp giá mới theo đúng quyết định của chị Kim (danh sách thay đổi giá, sheet A).",
+          "<b>65 mã</b> đã được áp giá mới theo đúng quyết định của chị Kim (danh sách thay đổi giá, sheet A).",
           0
         ],
         [
@@ -431,11 +435,11 @@
       "numbers": {
         "drive_total_items": 1631,
         "drive_new_after_watermark": 70,
-        "drive_last_scan": "drive-scan-1117-0815.json"
+        "drive_last_scan": "drive-scan-1117-0915.json"
       },
       "note": "Hourly recursive-listing watch; silent when nothing new.",
       "sources": [
-        "drive-scan-1117-0815.json"
+        "drive-scan-1117-0915.json"
       ]
     },
     "tiktok_reels": {
@@ -499,8 +503,8 @@
       "time": "06:00",
       "title": "Lên lịch bài Page ngày 18/11",
       "status": "doing",
-      "status_label": "22/33 khung sẵn sàng",
-      "detail": "22 khung đủ sàn (15 READY + 7 SHORT) nên buổi bấm còn 22 khung, đang chờ anh duyệt buổi bấm"
+      "status_label": "24/33 khung sẵn sàng",
+      "detail": "24 khung đủ sàn (15 READY + 9 SHORT) nên buổi bấm còn 24 khung, đang chờ anh duyệt buổi bấm"
     },
     {
       "time": "12:00",
