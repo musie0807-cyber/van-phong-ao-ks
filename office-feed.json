@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20 16:09 +07",
+  "generated_at": "2026-11-20 16:33 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -431,11 +431,11 @@
       "numbers": {
         "drive_total_items": 1631,
         "drive_new_after_watermark": 70,
-        "drive_last_scan": "drive-scan-1120-1515.json"
+        "drive_last_scan": "drive-scan-1120-1615.json"
       },
       "note": "Hourly recursive-listing watch; silent when nothing new.",
       "sources": [
-        "drive-scan-1120-1515.json"
+        "drive-scan-1120-1615.json"
       ]
     },
     "tiktok_reels": {
