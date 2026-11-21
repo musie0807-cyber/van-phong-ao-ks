@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21 13:37 +07",
+  "generated_at": "2026-11-21 13:52 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -51,7 +51,7 @@
           "22/11: None khung sẵn sàng, buổi bấm đang chờ anh",
           0,
           "None/33",
-          "Ngày 22/11: None khung đủ sàn (5 READY + 7 SHORT) nên buổi bấm còn <b>None khung</b>. Buổi bấm đang chờ anh duyệt.",
+          "Ngày 22/11: None khung đủ sàn (None READY + 0 SHORT) nên buổi bấm còn <b>None khung</b>. Buổi bấm đang chờ anh duyệt.",
           1
         ]
       ]
@@ -500,7 +500,7 @@
       "title": "Lên lịch bài Page ngày 22/11",
       "status": "doing",
       "status_label": "None/33 khung sẵn sàng",
-      "detail": "None khung đủ sàn (5 READY + 7 SHORT) nên buổi bấm còn None khung, đang chờ anh duyệt buổi bấm"
+      "detail": "None khung đủ sàn (None READY + 0 SHORT) nên buổi bấm còn None khung, đang chờ anh duyệt buổi bấm"
     },
     {
       "time": "12:00",
