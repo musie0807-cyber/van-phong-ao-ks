@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23 00:07 +07",
+  "generated_at": "2026-11-23 11:16 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -46,6 +46,13 @@
           "0 HELD",
           "Mức sẵn sàng ảnh của manifest 23/11: <b>17 khung READY</b> + <b>16 khung SHORT</b>, và <b>0 khung HELD</b> — không còn khung nào bị giữ vì ảnh.",
           0
+        ],
+        [
+          "24/11: None khung sẵn sàng, buổi bấm đang chờ anh",
+          0,
+          "None/33",
+          "Ngày 24/11: None khung đủ sàn (None READY + 0 SHORT) nên buổi bấm còn <b>None khung</b>. Buổi bấm đang chờ anh duyệt.",
+          1
         ]
       ]
     },
@@ -492,8 +499,8 @@
       "time": "06:00",
       "title": "Lên lịch bài Page ngày 24/11",
       "status": "doing",
-      "status_label": "Chưa có manifest",
-      "detail": "Chưa có manifest chuẩn bị cho ngày 24/11."
+      "status_label": "None/33 khung sẵn sàng",
+      "detail": "None khung đủ sàn (None READY + 0 SHORT) nên buổi bấm còn None khung, đang chờ anh duyệt buổi bấm"
     },
     {
       "time": "12:00",
