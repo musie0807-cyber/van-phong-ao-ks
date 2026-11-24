@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24 19:52 +07",
+  "generated_at": "2026-11-24 20:53 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -232,16 +232,16 @@
         "hck_posts_new_latest_run": 6,
         "hck_posts_latest_run_date": "2026-11-24",
         "hck_posts_latest_group_msg": 1339,
-        "hck_videos_new_latest_run": 0,
-        "hck_videos_latest_run_date": "2026-11-23",
+        "hck_videos_new_latest_run": 4,
+        "hck_videos_latest_run_date": "2026-11-24",
         "hck_videos_latest_group_msg": 1244,
         "hck_posts_baseline_urls": 199,
-        "hck_videos_baseline_urls": 143,
+        "hck_videos_baseline_urls": 147,
         "pending": 0,
         "done": 6,
         "prog": null
       },
-      "note": "Latest completed runs: 6 posts verified for 2026-11-24 (group msg 1339) + 0 videos verified for 2026-11-23 (msg 1244). Counts are parsed from hck-scan-log.md + the baseline files.",
+      "note": "Latest completed runs: 6 posts verified for 2026-11-24 (group msg 1339) + 4 videos verified for 2026-11-24 (msg 1244). Counts are parsed from hck-scan-log.md + the baseline files.",
       "sources": [
         "hck-scan-log.md",
         "hck-videos-baseline.json",
@@ -256,24 +256,24 @@
           0
         ],
         [
-          "HCK video ngày 2026-11-23: 0 video mới đã xác minh",
+          "HCK video ngày 2026-11-24: 4 video mới đã xác minh",
           0,
-          "2026-11-23",
-          "Đợt quét video HCK mới nhất ghi nhận <b>0 video đã xác minh (verified) cho ngày 2026-11-23</b>; kết quả đã báo vào nhóm Telegram (tin 1244). Đợt quét video ngày 24/11 chạy lúc 20:41.",
+          "2026-11-24",
+          "Đợt quét video HCK mới nhất ghi nhận <b>4 video đã xác minh (verified) cho ngày 2026-11-24</b>; kết quả đã báo vào nhóm Telegram (tin 1244). Đợt quét video ngày 24/11 chạy lúc 20:41.",
           0
         ],
         [
-          "Đã báo nhóm — tin 1339 (bài 2026-11-24) và 1244 (video 2026-11-23)",
+          "Đã báo nhóm — tin 1339 (bài 2026-11-24) và 1244 (video 2026-11-24)",
           1,
           "",
-          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 1339</b> cho 6 bài đăng ngày 2026-11-24, <b>tin 1244</b> cho 0 video ngày 2026-11-23.",
+          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 1339</b> cho 6 bài đăng ngày 2026-11-24, <b>tin 1244</b> cho 4 video ngày 2026-11-24.",
           0
         ],
         [
-          "Baseline HCK: 199 đường link bài + 143 đường link video",
+          "Baseline HCK: 199 đường link bài + 147 đường link video",
           0,
           "",
-          "Danh sách baseline để đối chiếu HCK gồm <b>199 đường link bài đăng</b> và <b>143 đường link video</b>.",
+          "Danh sách baseline để đối chiếu HCK gồm <b>199 đường link bài đăng</b> và <b>147 đường link video</b>.",
           0
         ]
       ]
@@ -443,17 +443,17 @@
       "live": false,
       "numbers": {
         "pending": 0,
-        "done": 0,
+        "done": 4,
         "prog": null
       },
       "note": "KS TikTok @ksgiadungnhapkhau, 572 followers (verified 2026-10-31). No Reels pipeline file exists yet; Reels prep is manual/continuous. HCK videos latest: 12 new verified 2026-11-07 (group msg 850); today's video run is due 20:41 (see Kiểm tra lỗi Shop).",
       "sources": [],
       "tasks": [
         [
-          "Video HCK mới ngày 2026-11-23: 0 video",
+          "Video HCK mới ngày 2026-11-24: 4 video",
           0,
-          "2026-11-23",
-          "Đợt quét HCK ngày 2026-11-23 ghi nhận <b>0 video mới</b>; kết quả đã báo vào nhóm (tin 1244, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 24/11 chạy lúc 20:41.",
+          "2026-11-24",
+          "Đợt quét HCK ngày 2026-11-24 ghi nhận <b>4 video mới</b>; kết quả đã báo vào nhóm (tin 1244, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 24/11 chạy lúc 20:41.",
           0
         ],
         [
