@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25 17:52 +07",
+  "generated_at": "2026-11-25 19:52 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -229,19 +229,19 @@
       "title": "Kiểm tra lỗi Shop (quét HCK)",
       "live": true,
       "numbers": {
-        "hck_posts_new_latest_run": 6,
-        "hck_posts_latest_run_date": "2026-11-24",
+        "hck_posts_new_latest_run": 2,
+        "hck_posts_latest_run_date": "2026-11-25",
         "hck_posts_latest_group_msg": 1339,
         "hck_videos_new_latest_run": 4,
         "hck_videos_latest_run_date": "2026-11-24",
         "hck_videos_latest_group_msg": 1244,
-        "hck_posts_baseline_urls": 199,
+        "hck_posts_baseline_urls": 201,
         "hck_videos_baseline_urls": 147,
         "pending": 0,
-        "done": 6,
+        "done": 2,
         "prog": null
       },
-      "note": "Latest completed runs: 6 posts verified for 2026-11-24 (group msg 1339) + 4 videos verified for 2026-11-24 (msg 1244). Counts are parsed from hck-scan-log.md + the baseline files.",
+      "note": "Latest completed runs: 2 posts verified for 2026-11-25 (group msg 1339) + 4 videos verified for 2026-11-24 (msg 1244). Counts are parsed from hck-scan-log.md + the baseline files.",
       "sources": [
         "hck-scan-log.md",
         "hck-videos-baseline.json",
@@ -249,10 +249,10 @@
       ],
       "tasks": [
         [
-          "HCK bài đăng ngày 2026-11-24: 6 bài mới đã xác minh",
+          "HCK bài đăng ngày 2026-11-25: 2 bài mới đã xác minh",
           0,
-          "2026-11-24",
-          "Đợt quét bài đăng HCK mới nhất ghi nhận <b>6 bài đăng đã xác minh (verified) cho ngày 2026-11-24</b>; kết quả đã báo vào nhóm Telegram (tin 1339).",
+          "2026-11-25",
+          "Đợt quét bài đăng HCK mới nhất ghi nhận <b>2 bài đăng đã xác minh (verified) cho ngày 2026-11-25</b>; kết quả đã báo vào nhóm Telegram (tin 1339).",
           0
         ],
         [
@@ -263,17 +263,17 @@
           0
         ],
         [
-          "Đã báo nhóm — tin 1339 (bài 2026-11-24) và 1244 (video 2026-11-24)",
+          "Đã báo nhóm — tin 1339 (bài 2026-11-25) và 1244 (video 2026-11-24)",
           1,
           "",
-          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 1339</b> cho 6 bài đăng ngày 2026-11-24, <b>tin 1244</b> cho 4 video ngày 2026-11-24.",
+          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 1339</b> cho 2 bài đăng ngày 2026-11-25, <b>tin 1244</b> cho 4 video ngày 2026-11-24.",
           0
         ],
         [
-          "Baseline HCK: 199 đường link bài + 147 đường link video",
+          "Baseline HCK: 201 đường link bài + 147 đường link video",
           0,
           "",
-          "Danh sách baseline để đối chiếu HCK gồm <b>199 đường link bài đăng</b> và <b>147 đường link video</b>.",
+          "Danh sách baseline để đối chiếu HCK gồm <b>201 đường link bài đăng</b> và <b>147 đường link video</b>.",
           0
         ]
       ]
@@ -519,9 +519,9 @@
     {
       "time": "19:00",
       "title": "Báo cáo quét HCK ngày 25/11",
-      "status": "doing",
-      "status_label": "Chưa quét hôm nay",
-      "detail": "Đợt quét mới nhất: 6 bài ngày 2026-11-24 (tin 1339) · video chạy lúc 20:41."
+      "status": "done",
+      "status_label": "Đã báo nhóm",
+      "detail": "2 bài mới, đã báo nhóm (tin 1339) · video chạy lúc 20:41"
     }
   ],
   "deadlines_date": "25/11"
