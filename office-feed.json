@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26 09:10 +07",
+  "generated_at": "2026-11-26 09:39 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -61,16 +61,16 @@
       "live": true,
       "numbers": {
         "seen_posts": 297,
-        "shared_posts": 604,
+        "shared_posts": 617,
         "seen_not_shared_snapshot": 122,
-        "shared_not_in_seen_snapshot": 429,
+        "shared_not_in_seen_snapshot": 442,
         "published_but_unshared": 1,
         "published_but_unshared_ids": [
           "1288281056850201"
         ],
         "pending": 1,
-        "done": 604,
-        "prog": 203
+        "done": 617,
+        "prog": 208
       },
       "note": "Seen/sharing ledgers are snapshots at different times (seen file 20261108, shared ledger live), so the 122 seen-not-shared IDs need a live re-check before sharing; titles were not resolvable from the raw CLI dump. Scope: published from 2026-11-02 onward. Published-but-unshared right now: 1 (1288281056850201 @ 2026-11-09 12:30 +07) — share each once, never twice. ",
       "pending_ids": [
@@ -203,10 +203,10 @@
       ],
       "tasks": [
         [
-          "Đã thấy 297 bài, đã chia sẻ 604 bài (phạm vi từ 02/11)",
+          "Đã thấy 297 bài, đã chia sẻ 617 bài (phạm vi từ 02/11)",
           0,
-          "604/297",
-          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>604 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
+          "617/297",
+          "Phạm vi <b>bài đăng từ 02/11 trở đi</b>: đã thấy <b>297 bài</b> trên Page và đã chia sẻ <b>617 bài</b> sang tài khoản cá nhân KS Gia Dụng Đức.",
           0
         ],
         [
@@ -217,10 +217,10 @@
           1
         ],
         [
-          "429 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
+          "442 bài đã chia sẻ nhưng không nằm trong danh sách đã thấy",
           0,
           "Ngoài danh sách",
-          "Có <b>429 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
+          "Có <b>442 bài</b> đã được chia sẻ sang trang cá nhân nhưng không xuất hiện trong danh sách 297 bài đã thấy trên Page (chụp ở thời điểm khác nhau).",
           0
         ]
       ]
@@ -284,10 +284,10 @@
       "numbers": {
         "web_products_live_dump": 2065,
         "web_products_live_dump_file": "wp-products-2026-11-16-seo.json",
-        "seo_latest_lot": "seo-audit-lot29-2026-11-25.md",
-        "seo_latest_lot_date": "2026-11-25",
-        "seo_latest_lot_above_80": "Above 80: 1/20",
-        "seo_next_lot_starts_web_id": 6826,
+        "seo_latest_lot": "seo-audit-lot30-2026-11-26.md",
+        "seo_latest_lot_date": "2026-11-26",
+        "seo_latest_lot_above_80": "Above 80: 3/20",
+        "seo_next_lot_starts_web_id": 6805,
         "image_fix_latest_lot": "image-fix-lot-2026-11-25.md",
         "image_fix_latest_fixable": null,
         "image_fix_latest_not_fixable": null,
@@ -305,12 +305,12 @@
           "batch7_shortlisted": 38
         },
         "pending": 164,
-        "done": 1,
-        "prog": 5
+        "done": 3,
+        "prog": 15
       },
-      "note": "SEO audit lot seo-audit-lot29-2026-11-25.md (2026-11-25, web IDs 6846 → 6827): 1/20 above Rank Math 80. Next lot starts at web ID 6826. Image-fix lot 2026-11-25 prepared (? fixable, ? not fixable: ?, no official image); next image-fix lot starts at None. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
+      "note": "SEO audit lot seo-audit-lot30-2026-11-26.md (2026-11-26, web IDs 6826 → 6806): 3/20 above Rank Math 80. Next lot starts at web ID 6805. Image-fix lot 2026-11-25 prepared (? fixable, ? not fixable: ?, no official image); next image-fix lot starts at None. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
       "sources": [
-        "seo-audit-lot29-2026-11-25.md",
+        "seo-audit-lot30-2026-11-26.md",
         "image-fix-lot-2026-11-25.md",
         "new-batch2-shortlist-1103.json",
         "new-batch3-verify-1106.json",
@@ -330,10 +330,10 @@
           0
         ],
         [
-          "SEO lô 29 ngày 25/11: 1/20 bài trên 80 điểm; lô tiếp theo bắt đầu từ 6826",
+          "SEO lô 30 ngày 26/11: 3/20 bài trên 80 điểm; lô tiếp theo bắt đầu từ 6805",
           0,
-          "1/20",
-          "Lô SEO số 29 ngày 25/11 (web 6846 → 6827): <b>1 trên 20 bài</b> đạt trên 80 điểm Rank Math (6832: 84). Các bài còn lại chưa đạt 80 điểm — cần viết lại nội dung + phản biện ChatGPT.",
+          "3/20",
+          "Lô SEO số 30 ngày 26/11 (web 6826 → 6806): <b>3 trên 20 bài</b> đạt trên 80 điểm Rank Math (6817: 83, 6813: 85, 6811: 84). Các bài còn lại chưa đạt 80 điểm — cần viết lại nội dung + phản biện ChatGPT.",
           0
         ],
         [
@@ -507,7 +507,7 @@
       "title": "Lô SEO + sửa ảnh ngày 26/11",
       "status": "doing",
       "status_label": "Chưa đủ lô hôm nay",
-      "detail": "Lô SEO mới nhất: lot 29 ngày 2026-11-25 (1/20 trên 80) · sửa ảnh mới nhất 2026-11-25 (None/None)."
+      "detail": "Lô SEO mới nhất: lot 30 ngày 2026-11-26 (3/20 trên 80) · sửa ảnh mới nhất 2026-11-25 (None/None)."
     },
     {
       "time": "17:00",
