@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26 19:53 +07",
+  "generated_at": "2026-11-26 20:44 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -233,7 +233,7 @@
         "hck_posts_latest_run_date": "2026-11-26",
         "hck_posts_latest_group_msg": 1339,
         "hck_videos_new_latest_run": 3,
-        "hck_videos_latest_run_date": "2026-11-25",
+        "hck_videos_latest_run_date": "2026-11-26",
         "hck_videos_latest_group_msg": 1244,
         "hck_posts_baseline_urls": 206,
         "hck_videos_baseline_urls": 150,
@@ -241,7 +241,7 @@
         "done": 5,
         "prog": null
       },
-      "note": "Latest completed runs: 5 posts verified for 2026-11-26 (group msg 1339) + 3 videos verified for 2026-11-25 (msg 1244). Counts are parsed from hck-scan-log.md + the baseline files.",
+      "note": "Latest completed runs: 5 posts verified for 2026-11-26 (group msg 1339) + 3 videos verified for 2026-11-26 (msg 1244). Counts are parsed from hck-scan-log.md + the baseline files.",
       "sources": [
         "hck-scan-log.md",
         "hck-videos-baseline.json",
@@ -256,17 +256,17 @@
           0
         ],
         [
-          "HCK video ngày 2026-11-25: 3 video mới đã xác minh",
+          "HCK video ngày 2026-11-26: 3 video mới đã xác minh",
           0,
-          "2026-11-25",
-          "Đợt quét video HCK mới nhất ghi nhận <b>3 video đã xác minh (verified) cho ngày 2026-11-25</b>; kết quả đã báo vào nhóm Telegram (tin 1244). Đợt quét video ngày 26/11 chạy lúc 20:41.",
+          "2026-11-26",
+          "Đợt quét video HCK mới nhất ghi nhận <b>3 video đã xác minh (verified) cho ngày 2026-11-26</b>; kết quả đã báo vào nhóm Telegram (tin 1244). Đợt quét video ngày 26/11 chạy lúc 20:41.",
           0
         ],
         [
-          "Đã báo nhóm — tin 1339 (bài 2026-11-26) và 1244 (video 2026-11-25)",
+          "Đã báo nhóm — tin 1339 (bài 2026-11-26) và 1244 (video 2026-11-26)",
           1,
           "",
-          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 1339</b> cho 5 bài đăng ngày 2026-11-26, <b>tin 1244</b> cho 3 video ngày 2026-11-25.",
+          "Kết quả quét đã báo vào nhóm Telegram: <b>tin 1339</b> cho 5 bài đăng ngày 2026-11-26, <b>tin 1244</b> cho 3 video ngày 2026-11-26.",
           0
         ],
         [
@@ -450,10 +450,10 @@
       "sources": [],
       "tasks": [
         [
-          "Video HCK mới ngày 2026-11-25: 3 video",
+          "Video HCK mới ngày 2026-11-26: 3 video",
           0,
-          "2026-11-25",
-          "Đợt quét HCK ngày 2026-11-25 ghi nhận <b>3 video mới</b>; kết quả đã báo vào nhóm (tin 1244, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 26/11 chạy lúc 20:41.",
+          "2026-11-26",
+          "Đợt quét HCK ngày 2026-11-26 ghi nhận <b>3 video mới</b>; kết quả đã báo vào nhóm (tin 1244, phòng Kiểm tra lỗi Shop). Đợt quét video ngày 26/11 chạy lúc 20:41.",
           0
         ],
         [
