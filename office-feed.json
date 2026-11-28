@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-28 00:09 +07",
+  "generated_at": "2026-11-28 09:36 +07",
   "generator": "build-office-feed.py (SYSTEM V1)",
   "rooms": {
     "fanpage": {
@@ -284,9 +284,9 @@
       "numbers": {
         "web_products_live_dump": 2065,
         "web_products_live_dump_file": "wp-products-2026-11-16-seo.json",
-        "seo_latest_lot": "seo-audit-lot32-2026-11-27.md",
-        "seo_latest_lot_date": "2026-11-27",
-        "seo_latest_lot_above_80": "Above 80: 1/20",
+        "seo_latest_lot": "seo-audit-lot33-2026-11-28.md",
+        "seo_latest_lot_date": "2026-11-28",
+        "seo_latest_lot_above_80": "Above 80: 0/20",
         "seo_next_lot_starts_web_id": 6620,
         "image_fix_latest_lot": "image-fix-lot-2026-11-25.md",
         "image_fix_latest_fixable": null,
@@ -305,12 +305,12 @@
           "batch7_shortlisted": 38
         },
         "pending": 164,
-        "done": 1,
-        "prog": 5
+        "done": 0,
+        "prog": 0
       },
-      "note": "SEO audit lot seo-audit-lot32-2026-11-27.md (2026-11-27, web IDs 6679 → 6621): 1/20 above Rank Math 80. Next lot starts at web ID 6620. Image-fix lot 2026-11-25 prepared (? fixable, ? not fixable: ?, no official image); next image-fix lot starts at None. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
+      "note": "SEO audit lot seo-audit-lot33-2026-11-28.md (2026-11-28, web IDs 6620 → 6599): 0/20 above Rank Math 80. Next lot starts at web ID 6620. Image-fix lot 2026-11-25 prepared (? fixable, ? not fixable: ?, no official image); next image-fix lot starts at None. Backlog = batch-1 held 2 + batch-2 23 (no drafts) + batch-3 19 unpublished (7 of 30 published 2026-11-07) + batch-4 13 unpublished (18 of 31 published 2026-11-06) + batch-5 35 (no drafts) + batch-6 34 (awaiting chị's approval) + batch-7 38 (shortlisted 2026-11-08).",
       "sources": [
-        "seo-audit-lot32-2026-11-27.md",
+        "seo-audit-lot33-2026-11-28.md",
         "image-fix-lot-2026-11-25.md",
         "new-batch2-shortlist-1103.json",
         "new-batch3-verify-1106.json",
@@ -330,10 +330,10 @@
           0
         ],
         [
-          "SEO lô 32 ngày 27/11: 1/20 bài trên 80 điểm; lô tiếp theo bắt đầu từ 6620",
+          "SEO lô 33 ngày 28/11: 0/20 bài trên 80 điểm; lô tiếp theo bắt đầu từ 6620",
           0,
-          "1/20",
-          "Lô SEO số 32 ngày 27/11 (web 6679 → 6621): <b>1 trên 20 bài</b> đạt trên 80 điểm Rank Math (6629: 88). Các bài còn lại chưa đạt 80 điểm — cần viết lại nội dung + phản biện ChatGPT.",
+          "0/20",
+          "Lô SEO số 33 ngày 28/11 (web 6620 → 6599): <b>0 trên 20 bài</b> đạt trên 80 điểm Rank Math (). Các bài còn lại chưa đạt 80 điểm — cần viết lại nội dung + phản biện ChatGPT.",
           0
         ],
         [
@@ -507,7 +507,7 @@
       "title": "Lô SEO + sửa ảnh ngày 28/11",
       "status": "doing",
       "status_label": "Chưa đủ lô hôm nay",
-      "detail": "Lô SEO mới nhất: lot 32 ngày 2026-11-27 (1/20 trên 80) · sửa ảnh mới nhất 2026-11-25 (None/None)."
+      "detail": "Lô SEO mới nhất: lot 33 ngày 2026-11-28 (0/20 trên 80) · sửa ảnh mới nhất 2026-11-25 (None/None)."
     },
     {
       "time": "17:00",
